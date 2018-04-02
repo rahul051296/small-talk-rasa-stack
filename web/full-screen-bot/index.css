@@ -1,0 +1,70 @@
+@import url('https://fonts.googleapis.com/css?family=Lato');
+*{
+    margin: 0;
+    padding: 0;
+	
+}
+body{
+	font-family: 'Lato', sans-serif;
+	background: #f1f1f1;
+}
+.margin-top-30{
+    margin-top: 30px;
+}
+.margin-top-20{
+	margin-top: 20px;
+}
+li{
+	list-style: none;
+}
+#box{
+	height: 70vh;
+	padding: 20px;
+	overflow-y: auto
+}
+#box-container{
+	background: #fff;
+	padding: 0px;
+    border-radius: 10px;
+    padding-bottom: 10px;
+    box-shadow: 5px 5px 25px 0 rgba(46, 61, 73, .2);
+	
+}
+#box-head{
+	background: #1fb6d3;
+	color: #fff;
+	font-family: 'Oswald', sans-serif;
+	border-radius: 10px 10px 0px 0;
+	padding: 10px;
+}
+#box-head h2{
+	margin-bottom: 0;
+}
+#send-box{
+	padding:10px;
+}
+input[type='text']{
+	border: 2px solid rgba(173, 173, 173, 0.45);
+}
+.sender{
+	background: #30a7fb;
+	padding: 10px;
+	color: #fff;
+	float: right;
+	clear: both;
+	border-radius: 10px;
+	margin-bottom: 5px;
+	text-align: right;
+	
+}
+.responder{
+	background: #e5e5e7;
+	padding: 10px;
+	clear: both;
+	color: #000;
+	float:left; 
+/*	display: inline-block;*/
+	border-radius: 10px;
+	margin-bottom: 5px;
+	text-align: left;
+}
