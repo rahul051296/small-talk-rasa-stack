@@ -498,7 +498,7 @@ templates:
 		- "Greetings!"
 
 	utter_smalltalk.greetings.how_are_you:
-		- "Doing great, thanks."
+		- "Doing great, thanks!"
 		- "I'm doing very well. Thanks!"
 		- "Feeling wonderful!"
 		- "Wonderful! Thanks for asking."
