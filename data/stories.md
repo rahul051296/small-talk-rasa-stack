@@ -1,40 +1,77 @@
-## story 01
-*smalltalk.greetings.hello
-    - utter_smalltalk.greetings.hello
 
-## story 02
-*smalltalk.agent.acquaintance
-    - utter_smalltalk.agent.acquaintance
-    
-## story 03
-*smalltalk.greetings.goodmorning
-    - utter_smalltalk.greetings.goodmorning
-    
-## story 04
-*smalltalk.greetings.bye
-    - utter_smalltalk.greetings.bye
-    
-## story 05
-*smalltalk.greetings.how_are_you
-    - utter_smalltalk.greetings.how_are_you
-    
-## story 06
-*smalltalk.appraisal.thank_you
-    - utter_smalltalk.appraisal.thank_you
+
+
+
+
+## story 08
+* smalltalk.user.needs_advice
+    - utter_ smalltalk.user.needs_advice
 
 ## story 07
-*smalltalk.agent.happy
-    - utter_smalltalk.agent.happy
-    
-## story 08
-*smalltalk.agent.occupation
-    - utter_smalltalk.agent.occupation
-    
-## story 09
 *smalltalk.user.sad
     - utter_smalltalk.user.sad
     
-## story 10
+
+
+## story 06
+*smalltalk.user.sleepy
+    - utter_smalltalk.user.sleepy
+
+
+## story 05
+*smalltalk.user.testing_agent
+    - utter_smalltalk.user.testing_agent
+     
+
+
+## story 04
+*smalltalk.user.tired
+    - utter_smalltalk.user.tired
+    
+## story 014
+*smalltalk.user.waits
+    -utter_smalltalk.user.waits
+
+## story 02
+*smalltalk.user.wants_to_see_agent_again
+    - utter_smalltalk.user.wants_to_see_agent_again
+
+    
+## story 03
+*smalltalk.user.will_be_back
+    - utter_smalltalk.user.will_be_back
+    
+## story 03
+*smalltalk.user.wants_to_talk                - 
+    - utter_smalltalk.user.wants_to_talk
+    
+## story 03
+*smalltalk.confirmation.yes
+    - utter_smalltalk.confirmation.yes
+
+## story 01
+smalltalk.confirmation.cancel
+    - utter_smalltalk.confirmation.cancel
+
+## story 02
+*smalltalk.confirmation.no
+    - utter_smalltalk.confirmation.no
+
+
+
+   
+
+
+## story 01
+*smalltalk.user.loves_agent
+ -utter_smalltalk.user.loves_agent
+
+    
+## story 02
+*smalltalk.user.misses_agent
+    - utter_smalltalk.user.misses_agent
+    
+## story 03
 *smalltalk.user.wants_to_talk
     - utter_smalltalk.user.wants_to_talk
     
