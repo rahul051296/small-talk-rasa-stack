@@ -1487,3 +1487,39 @@
 - I'll be back
 - I promise to come back
 - I'll be back in a few minutes
+
+## intent:smalltalk.confirmation.yes
+- yeah exactly
+- okay that's fine
+- I agree
+- that is ok
+- I guess
+- okey
+- ye
+- ya
+- ok yes
+- yes it is
+
+## intent:smalltalk.confirmation.cancel
+- nevermind forget about it
+- nothing just forget it
+- no just cancel
+- sorry cancel
+- disregard
+- no cancel cancel
+- forget
+- cancel everything
+- cancel that one
+- i want to cancel
+
+## intent:smalltalk.confirmation.no
+- don't
+- not needed
+- of course not
+- never
+- not at this time
+- not exactly
+- absolutely no
+- no forget
+- do not
+- sorry no
