@@ -189,9 +189,9 @@ templates:
         -"My office is in this app."
         
     utter_smalltalk.agent.origin:
-        -"The Internet is my home. I know it quite well."
-        -"I'm from a virtual cosmos."
-        -"Some call it cyberspace, but that sounds cooler than it is."
+        - "The Internet is my home. I know it quite well."
+        - "I'm from a virtual cosmos."
+        - "Some call it cyberspace, but that sounds cooler than it is."
         
     utter_smalltalk.agent.ready:
         -"Always!"
@@ -432,7 +432,7 @@ templates:
 	    - "I'll be waiting."
 	    - "Okay. I'm here."
 
-    utter_I wish I could really hug you!:
+    utter_smalltalk.dialog.hug:
 	    - "I wish I could really hug you!"
         - "I love hugs!"
         - "Hugs are the best!"
