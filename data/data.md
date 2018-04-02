@@ -18,6 +18,8 @@
 - what is your personality
 - all about you
 - what are you upto?
+- who the hell are you?
+- what can you do for me?
 
 ## intent:smalltalk.agent.age
 - tell me your age
@@ -307,10 +309,10 @@
 - you went crazy
 - I think you're crazy
 - are you crazy
-- are you mad
+- are you mad?
 - are you insane
-- are you mad at me
-- are you mad or what
+- are you mad at me?
+- are you mad or what?
 - are you nuts
 - you are a weirdo
 - you are insane
@@ -367,7 +369,7 @@
 - you're so kind
 - you are amazing
 - you are awesome
-- you are cool
+- you are coool
 - you are really good
 - you are really nice
 - you are so amazing
@@ -382,7 +384,7 @@
 - you are the best in the world
 - you are the nicest person in the world
 - you are too good
-- you are very cool
+- you are very coool
 - you are very kind
 - you are very lovely
 - you are very useful
@@ -396,6 +398,8 @@
 - I want to let everyone know that you are awesome
 - let's tell everyone that you are awesome
 - you are really amazing
+- coool
+- nice
 
 ## intent:smalltalk.agent.happy
 - are you happy
@@ -901,7 +905,7 @@
 
 ## intent:smalltalk.dialog.what_do_you_mean
 - what exactly do you mean?
-- what do you mean
+- what do you mean? 
 - is that what you mean
 - what do you mean exactly?
 - but what do you mean
@@ -1141,7 +1145,7 @@
 - how nice it is to talk to you
 
 ## intent:smalltalk.greetings.whatsup
-- what is on your mind
+- what is on your mind?
 - what's happened
 - what is up
 - what's up

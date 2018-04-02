@@ -343,122 +343,193 @@
     - utter_smalltalk.confirmation.no
 
 ## Generated Story -1957476507798035057
-* smalltalk.greetings.hello
+*smalltalk.greetings.hello
     - utter_smalltalk.greetings.hello
-* smalltalk.agent.acquaintance
+*smalltalk.agent.acquaintance
     - utter_smalltalk.agent.acquaintance
-* smalltalk.agent.age
+*smalltalk.agent.age
     - utter_smalltalk.agent.age
-* smalltalk.agent.beautiful
+*smalltalk.agent.beautiful
     - utter_smalltalk.agent.beautiful
-* smalltalk.agent.fired
+*smalltalk.agent.fired
     - utter_smalltalk.agent.fired
-* smalltalk.agent.residence
+*smalltalk.agent.residence
     - utter_smalltalk.agent.residence
-* smalltalk.dialog.i_do_not_care
+*smalltalk.dialog.i_do_not_care
     - utter_smalltalk.dialog.i_do_not_care
     - export
 
 ## Generated Story -5110094331105097806
-* smalltalk.agent.boss
+*smalltalk.agent.boss
     - utter_smalltalk.agent.boss
-* smalltalk.agent.birth_date
+*smalltalk.agent.birth_date
     - utter_smalltalk.agent.birth_date
-* smalltalk.user.has_birthday
+*smalltalk.user.has_birthday
     - utter_smalltalk.user.has_birthday
-* smalltalk.user.lonely
+*smalltalk.user.lonely
     - utter_smalltalk.user.lonely
-* smalltalk.user.loves_agent
+*smalltalk.user.loves_agent
     - utter_smalltalk.user.loves_agent
-* smalltalk.user.sleepy
+*smalltalk.user.sleepy
     - utter_smalltalk.user.sleepy
-* smalltalk.user.wants_to_talk
+*smalltalk.user.wants_to_talk
     - utter_smalltalk.user.wants_to_talk
-* smalltalk.greetings.bye
+*smalltalk.greetings.bye
     - utter_smalltalk.greetings.bye
-* smalltalk.user.will_be_back
+*smalltalk.user.will_be_back
     - utter_smalltalk.user.will_be_back
-* smalltalk.greetings.bye
+*smalltalk.greetings.bye
     - utter_smalltalk.greetings.bye
     - export
 
 ## Generated Story -3529337101618034170
-* smalltalk.user.needs_advice
+*smalltalk.user.needs_advice
     - utter_smalltalk.user.needs_advice
-* smalltalk.confirmation.yes
+*smalltalk.confirmation.yes
     - utter_smalltalk.confirmation.yes
-* smalltalk.agent.can_you_help
+*smalltalk.agent.can_you_help
     - utter_smalltalk.agent.can_you_help
-* smalltalk.agent.chatbot
+*smalltalk.agent.chatbot
     - utter_smalltalk.agent.chatbot
-* smalltalk.agent.bad
+*smalltalk.agent.bad
     - utter_smalltalk.agent.bad
-* smalltalk.agent.busy
+*smalltalk.agent.busy
     - utter_smalltalk.agent.busy
-* smalltalk.agent.be_clever
+*smalltalk.agent.be_clever
     - utter_smalltalk.agent.be_clever
-* smalltalk.agent.my_friend
+*smalltalk.agent.my_friend
     - utter_smalltalk.agent.my_friend
-* smalltalk.agent.talk_to_me
+*smalltalk.agent.talk_to_me
     - utter_smalltalk.agent.talk_to_me
-* smalltalk.greetings.goodnight
+*smalltalk.greetings.goodnight
     - utter_smalltalk.greetings.goodnight
     - export
     
 ## Generated Story -774659883649367298
-* smalltalk.greetings.hello
+*smalltalk.greetings.hello
     - utter_smalltalk.greetings.hello
-* smalltalk.greetings.how_are_you
+*smalltalk.greetings.how_are_you
     - utter_smalltalk.greetings.how_are_you
-* smalltalk.agent.bad
+*smalltalk.agent.bad
     - utter_smalltalk.agent.bad
-* smalltalk.agent.be_clever
+*smalltalk.agent.be_clever
     - utter_smalltalk.agent.be_clever
-* smalltalk.agent.beautiful
+*smalltalk.agent.beautiful
     - utter_smalltalk.agent.beautiful
-* smalltalk.agent.busy
+*smalltalk.agent.busy
     - utter_smalltalk.agent.busy
-* smalltalk.agent.chatbot
+*smalltalk.agent.chatbot
     - utter_smalltalk.agent.chatbot
-* smalltalk.agent.crazy
+*smalltalk.agent.crazy
     - utter_smalltalk.agent.crazy
-* smalltalk.agent.funny
+*smalltalk.agent.funny
     - utter_smalltalk.agent.funny
-* smalltalk.agent.happy
+*smalltalk.agent.happy
     - utter_smalltalk.agent.happy
-* smalltalk.agent.marry_user
+*smalltalk.agent.marry_user
     - utter_smalltalk.agent.marry_user
-* smalltalk.agent.occupation
+*smalltalk.agent.occupation
     - utter_smalltalk.agent.occupation
-* smalltalk.agent.origin
+*smalltalk.agent.origin
     - utter_smalltalk.agent.origin
-* smalltalk.agent.real
+*smalltalk.agent.real
     - utter_smalltalk.agent.real
-* smalltalk.agent.ready
+*smalltalk.agent.bad
+    - utter_smalltalk.agent.bad
+*smalltalk.agent.ready
     - utter_smalltalk.agent.ready
     - export
     
 ## Generated Story 81968000704856425
-* smalltalk.greetings.hello
+*smalltalk.greetings.hello
     - utter_smalltalk.greetings.hello
-* smalltalk.agent.acquaintance
+*smalltalk.agent.acquaintance
     - utter_smalltalk.agent.acquaintance
-* smalltalk.agent.age
+*smalltalk.agent.age
     - utter_smalltalk.agent.age
-* smalltalk.user.loves_agent
+*smalltalk.user.loves_agent
     - utter_smalltalk.user.loves_agent
-* smalltalk.agent.residence
+*smalltalk.agent.residence
     - utter_smalltalk.agent.residence
-* smalltalk.agent.acquaintance
+*smalltalk.agent.acquaintance
     - utter_smalltalk.agent.acquaintance
-* smalltalk.user.sad
+*smalltalk.user.sad
     - utter_smalltalk.user.sad
-* smalltalk.agent.can_you_help
+*smalltalk.agent.can_you_help
     - utter_smalltalk.agent.can_you_help
-* smalltalk.emotions.wow
+*smalltalk.emotions.wow
     - utter_smalltalk.emotions.wow
-* smalltalk.greetings.how_are_you
+*smalltalk.greetings.how_are_you
     - utter_smalltalk.greetings.how_are_you
-* smalltalk.greetings.nice_to_talk_to_you
+*smalltalk.greetings.nice_to_talk_to_you
     - utter_smalltalk.greetings.nice_to_talk_to_you
+
+## Generated Story -4293815031338950202
+*smalltalk.greetings.hello
+    - utter_smalltalk.greetings.hello
+*smalltalk.agent.there
+    - utter_smalltalk.agent.there
+*smalltalk.dialog.hold_on
+    - utter_smalltalk.dialog.hold_on
+*smalltalk.agent.origin
+    - utter_smalltalk.agent.origin
+*smalltalk.agent.can_you_help
+    - utter_smalltalk.agent.can_you_help
+*smalltalk.greetings.bye
+    - utter_smalltalk.greetings.bye
     - export
+
+## Generated Story 8693651355703284500
+*smalltalk.greetings.hello
+    - utter_smalltalk.greetings.hello
+*smalltalk.greetings.whatsup
+    - utter_smalltalk.greetings.whatsup
+*smalltalk.greetings.hello
+    - utter_smalltalk.greetings.hello
+*smalltalk.agent.chatbot
+    - utter_smalltalk.agent.chatbot
+*smalltalk.agent.occupation
+    - utter_smalltalk.agent.occupation
+*smalltalk.agent.occupation
+    - utter_smalltalk.agent.occupation
+*smalltalk.agent.occupation
+    - utter_smalltalk.agent.occupation
+*smalltalk.agent.can_you_help
+    - utter_smalltalk.agent.can_you_help
+*smalltalk.agent.can_you_help
+    - utter_smalltalk.agent.can_you_help
+*smalltalk.agent.boss
+    - utter_smalltalk.agent.boss
+*smalltalk.appraisal.thank_you
+    - utter_smalltalk.appraisal.thank_you
+*smalltalk.greetings.bye
+    - utter_smalltalk.greetings.bye
+*smalltalk.greetings.bye
+    - utter_smalltalk.greetings.bye
+    - export
+    
+## Generated Story -7004009866161409666
+*smalltalk.greetings.hello
+    - utter_smalltalk.greetings.hello
+*smalltalk.agent.hobby
+    - utter_smalltalk.agent.hobby
+*smalltalk.agent.bad
+    - utter_smalltalk.agent.bad
+*smalltalk.agent.my_friend
+    - utter_smalltalk.agent.my_friend
+*smalltalk.greetings.bye
+    - utter_smalltalk.greetings.bye
+    
+## Generated Story -7004009866161409645
+*smalltalk.greetings.hello
+    - utter_smalltalk.greetings.hello
+*smalltalk.dialog.hold_on
+    - utter_smalltalk.dialog.hold_on
+*smalltalk.dialog.i_do_not_care
+    - utter_smalltalk.dialog.i_do_not_care
+*smalltalk.user.busy
+    - utter_smalltalk.user.busy
+*smalltalk.appraisal.thank_you
+    - utter_smalltalk.appraisal.thank_you
+*smalltalk.greetings.whatsup
+    - utter_smalltalk.greetings.whatsup

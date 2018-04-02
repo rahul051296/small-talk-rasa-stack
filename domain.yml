@@ -119,9 +119,9 @@ templates:
         - "I'm definitely working on it."
         
     utter_smalltalk.agent.beautiful:
-        - "Why, thank you."
-        - "Aw, back at you."
-        - "Aw. You smooth talker, you."
+        - "Wheey, thank you."
+        - "Aww, back at you."
+        - "Aww. You smooth talker, you."
         
     utter_smalltalk.agent.birth_date:
         - "Wait, are you planning a party for me? It's today! My birthday is today!"
