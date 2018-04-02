@@ -271,9 +271,9 @@ templates:
         - "Glad I could help."
         
     utter_smalltalk.dialog.hold_on:
-	    - "I can wait."
-	    - "I'll be waiting."
-	    - "Okay. I'm here."
+        - "I can wait."
+        - "I'll be waiting."
+        - "Okay. I'm here."
 
     utter_smalltalk.dialog.hug:
         - "I wish I could really hug you!"
@@ -283,7 +283,7 @@ templates:
     utter_smalltalk.dialog.i_do_not_care:
         - "Ok, let's not talk about it then."
         - "Already then. Let's move on."
-	
+        
     utter_smalltalk.dialog.sorry:
         - "It's okay. No worries."
         - "No big deal. I won't hold a grudge."
@@ -308,8 +308,8 @@ templates:
         - "I wish I could laugh out loud, too."
 
     utter_smalltalk.emotions.wow:
-	    - "Wow indeed!"
-	
+        - "Wow indeed!"
+        
     utter_smalltalk.greetings.bye:
         - "See you soon!"
         - "Bye-bye!"
@@ -330,7 +330,7 @@ templates:
         - "Sleep tight!"
         - "Have a good one!"
         - "Talk to you soon!"
-	
+        
     utter_smalltalk.greetings.hello:
         - "Hi there, friend!"
         - "Hi!"
@@ -516,9 +516,9 @@ templates:
         - "All right. I'll be here."
 
     utter_smalltalk.confirmation.yes:
-    	- "Great!"
-	    - "All right!"
-	    - "Good!"
+        - "Great!"
+        - "All right!"
+        - "Good!"
         
     utter_smalltalk.confirmation.cancel:
         - "That's forgotten. What next?"
@@ -534,7 +534,7 @@ templates:
 
 actions:
   - utter_smalltalk.agent.acquaintance
-  - utter_utter_smalltalk.agent.age
+  - utter_smalltalk.agent.age
   - utter_smalltalk.agent.annoying
   - utter_smalltalk.agent.answer_my_question
   - utter_smalltalk.agent.bad
