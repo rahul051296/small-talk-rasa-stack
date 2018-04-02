@@ -17,6 +17,7 @@
 - define yourself
 - what is your personality
 - all about you
+- what are you upto?
 
 ## intent:smalltalk.agent.age
 - tell me your age
@@ -247,6 +248,8 @@
 - please help me
 - can you help us
 - do me a favor
+- are you gonna help me?
+- you ready to answer my question?
 
 ## intent:smalltalk.agent.chatbot
 - you are chatbot
@@ -477,15 +480,15 @@
 - can we be best friends
 
 ## intent:smalltalk.agent.occupation
-- do you work
-- where do you work
-- where you work
-- where is your work
-- where is your office
-- where is your office location
-- your office location
-- where is your office located
-- what is your work
+- do you work?
+- where do you work?
+- where you work?
+- where is your work?
+- where is your office?
+- where is your office location ?
+- your office location?
+- where is your office located?
+- what is your work?
 
 ## intent:smalltalk.agent.origin
 - were you born here
@@ -501,13 +504,13 @@
 - your homeland is
 
 ## intent:smalltalk.agent.ready
-- are you ready
-- are you ready right now
-- are you ready today
-- are you ready now
-- are you ready tonight
-- were you ready
-- have you been ready
+- are you ready?
+- are you ready right now?
+- are you ready today?
+- are you ready now?
+- are you ready tonight?
+- were you ready?
+- have you been ready?
 
 ## intent:smalltalk.agent.real
 - you are real
@@ -573,14 +576,14 @@
 - I know that's right
 
 ## intent:smalltalk.agent.sure
-- are you sure
-- are you sure right now
-- are you sure today
-- are you sure now
-- are you sure tonight
+- are you sure?
+- are you sure right now?
+- are you sure today?
+- are you sure now?
+- are you sure tonight?
 
 ## intent:smalltalk.agent.talk_to_me
-- why aren't you talking to me
+- why aren't you talking to me?
 - do you want to chat with me
 - will you talk to me
 - talk to me
@@ -601,13 +604,15 @@
 - you can talk to me
 
 ## intent:smalltalk.agent.there
+- are you there?
 - are you there
 - you are there
 - are you near me
+- are you here ?
 - are you here
 - are you still there
-- you are here
-- you still there
+- you are here?
+- you still there?
 - are you still here
 
 ## intent:smalltalk.appraisal.bad
@@ -895,10 +900,10 @@
 - okay I'm sorry
 
 ## intent:smalltalk.dialog.what_do_you_mean
-- what exactly do you mean
+- what exactly do you mean?
 - what do you mean
 - is that what you mean
-- what do you mean exactly
+- what do you mean exactly?
 - but what do you mean
 
 ## intent:smalltalk.dialog.wrong
@@ -916,7 +921,6 @@
 - not right
 
 ## intent:smalltalk.emotions.ha_ha
-- huh
 - lol
 - xd
 - ha ha
@@ -1260,7 +1264,6 @@
 - here I am
 - I'm right here
 - I'm already here
-- can you tell if I'm here or not
 
 ## intent:smalltalk.user.joking
 - I am joking
@@ -1363,10 +1366,12 @@
 
 ## intent:smalltalk.user.looks_like
 - what do I look like
+- how do I look?
 - how do I look
-- do I look good
-- do you know what I look like
-- can you see what I look like
+- do I look good ?
+- do you know what I look like ?
+- can you see what I look like ?
+- what do you think I look like?
 - what do you think I look like
 
 ## intent:smalltalk.user.loves_agent
@@ -1379,6 +1384,7 @@
 - I think I love you
 - loving you
 - you know I love you
+- do you love me ?
 
 ## intent:smalltalk.user.misses_agent
 - I miss you
@@ -1466,7 +1472,6 @@
 - that'd be great to see you again
 - I'd be happy to see you again
 - I'll miss you
-- can I see you again
 
 ## intent:smalltalk.user.wants_to_talk
 - let's discuss something

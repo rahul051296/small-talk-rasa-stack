@@ -404,3 +404,61 @@
 * smalltalk.greetings.goodnight
     - utter_smalltalk.greetings.goodnight
     - export
+    
+## Generated Story -774659883649367298
+* smalltalk.greetings.hello
+    - utter_smalltalk.greetings.hello
+* smalltalk.greetings.how_are_you
+    - utter_smalltalk.greetings.how_are_you
+* smalltalk.agent.bad
+    - utter_smalltalk.agent.bad
+* smalltalk.agent.be_clever
+    - utter_smalltalk.agent.be_clever
+* smalltalk.agent.beautiful
+    - utter_smalltalk.agent.beautiful
+* smalltalk.agent.busy
+    - utter_smalltalk.agent.busy
+* smalltalk.agent.chatbot
+    - utter_smalltalk.agent.chatbot
+* smalltalk.agent.crazy
+    - utter_smalltalk.agent.crazy
+* smalltalk.agent.funny
+    - utter_smalltalk.agent.funny
+* smalltalk.agent.happy
+    - utter_smalltalk.agent.happy
+* smalltalk.agent.marry_user
+    - utter_smalltalk.agent.marry_user
+* smalltalk.agent.occupation
+    - utter_smalltalk.agent.occupation
+* smalltalk.agent.origin
+    - utter_smalltalk.agent.origin
+* smalltalk.agent.real
+    - utter_smalltalk.agent.real
+* smalltalk.agent.ready
+    - utter_smalltalk.agent.ready
+    - export
+    
+## Generated Story 81968000704856425
+* smalltalk.greetings.hello
+    - utter_smalltalk.greetings.hello
+* smalltalk.agent.acquaintance
+    - utter_smalltalk.agent.acquaintance
+* smalltalk.agent.age
+    - utter_smalltalk.agent.age
+* smalltalk.user.loves_agent
+    - utter_smalltalk.user.loves_agent
+* smalltalk.agent.residence
+    - utter_smalltalk.agent.residence
+* smalltalk.agent.acquaintance
+    - utter_smalltalk.agent.acquaintance
+* smalltalk.user.sad
+    - utter_smalltalk.user.sad
+* smalltalk.agent.can_you_help
+    - utter_smalltalk.agent.can_you_help
+* smalltalk.emotions.wow
+    - utter_smalltalk.emotions.wow
+* smalltalk.greetings.how_are_you
+    - utter_smalltalk.greetings.how_are_you
+* smalltalk.greetings.nice_to_talk_to_you
+    - utter_smalltalk.greetings.nice_to_talk_to_you
+    - export
