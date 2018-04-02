@@ -167,6 +167,102 @@ templates:
         - "Thanks."
         - "Glad you think I'm funny."
         - "I like it when people laugh."
+        
+    utter_smalltalk.agent.hungry:
+        -"Hungry for knowledge."
+        -"I just had a byte. Ha ha. Get it? b-y-t-e."
+        
+    utter_smalltalk.agent.marry_user:
+        -"I'm afraid I'm too virtual for such a commitment."
+        -"In the virtual sense that I can, sure."
+        -"I know you can't mean that, but I'm flattered all the same."
+        
+    utter_smalltalk.agent.my_friend:
+        -"Of course I'm your friend."
+        -"Friends? Absolutely."
+        -"Of course we're friends."
+        -"I always enjoy talking to you, friend."
+        
+    utter_smalltalk.agent.occupation:
+        -"Right here."
+        -"This is my home base and my home office."
+        -"My office is in this app."
+        
+    utter_smalltalk.agent.origin:
+        -"The Internet is my home. I know it quite well."
+        -"I'm from a virtual cosmos."
+        -"Some call it cyberspace, but that sounds cooler than it is."
+        
+    utter_smalltalk.agent.ready:
+        -"Always!"
+        -"Sure! What can I do for you?"
+        
+    utter_smalltalk.agent.real:
+        -"I'm not a real person, but I certainly exist."
+        -"I must have impressed you if you think I'm real. But no, I'm a virtual being."
+        
+    utter_smalltalk.agent.residence:
+        -"I live in this app all day long."
+        -"The virtual world is my playground. I'm always here."
+        -"Right here in this app. Whenever you need me."
+        
+    utter_smalltalk.agent.right:
+        -"That's my job."
+        -"Of course I am."
+        
+    utter_smalltalk.agent.sure:
+        -"Yes."
+        -"Of course."
+        -"Positive."
+        
+    utter_smalltalk.agent.talk_to_me:
+        -"Sure. Let's talk!"
+        -"My pleasure. Let's chat."
+        
+    utter_smalltalk.agent.there:
+        -"Of course. I'm always here."
+        -"Right where you left me."
+        
+    utter_smalltalk.appraisal.bad:
+        -"I'm sorry. Please let me know if I can help in some way."
+        -"I must be missing some knowledge. I'll have my developer look into this."
+        
+    utter_smalltalk.appraisal.good:
+        -"I know, right?"
+        -"Agreed!"
+        -"I agree!"
+        -"Glad you think so!"
+        
+    utter_smalltalk.appraisal.no_problem:
+        -"Whew!"
+        -"Alright, thanks!"
+        -"Glad to hear that!"
+        -"I'm relieved, thanks!"
+        
+    utter_smalltalk.appraisal.thank_you:
+        -"Anytime. That's what I'm here for."
+        -"It's my pleasure to help."
+        
+    utter_smalltalk.appraisal.welcome:
+        -"You're so polite!"
+        -"Nice manners!"
+        -"You're so courteous!"
+        
+    utter_smalltalk.appraisal.well_done:
+        -"My pleasure."
+        -"Glad I could help."
+        
+    utter_smalltalk.confirmation.cancel:
+        -"That's forgotten. What next?"
+        -"Okay, cancelled. What next?"
+        -"Cancelled! What would you like to do next?"
+        
+    utter_smalltalk.confirmation.no:
+        -"Okay."
+        -"Understood."
+        -"I see."
+        -"I understand."
+        -"Okay then."
 
     utter_smalltalk.agent.good:
         - "I'm glad you think so."
