@@ -423,9 +423,9 @@ templates:
         - "Why not catch a little shuteye? I'll be here to chat when you wake up."
 
     utter_smalltalk.confirmation.yes:
-	    - "Great!"
-	    - "All right!"
-	    - "Good!"
+    	- "Great!"
+	- "All right!"
+	- "Good!"
 	
     utter_smalltalk.dialog.hold_on:
 	    - "I can wait."
