@@ -20,9 +20,9 @@ def train_core(input_channel, interpreter, domain_file="domain.yml", training_da
     agent.train_online(training_data_file,
                        input_channel=input_channel,
                        max_history=3,
-                       batch_size=20,
+                       batch_size=50,
                        validation_split=0.2,
-                       epochs=400)
+                       epochs=100)
 
     return agent
 

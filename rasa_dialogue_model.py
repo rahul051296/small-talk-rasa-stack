@@ -20,8 +20,8 @@ def train_dialogue(domain_file='domain.yml',
     agent.train(
         training_data_file,
         max_history=3,
-        epochs=400,
-        batch_size=20,
+        epochs=200,
+        batch_size=50,
         validation_split=0.2)
 
     agent.persist(model_path)
