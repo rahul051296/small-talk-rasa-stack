@@ -423,110 +423,110 @@ templates:
         - "Why not catch a little shuteye? I'll be here to chat when you wake up."
 
     utter_smalltalk.confirmation.yes:
-	- "Great!"
-	- "All right!"
-	- "Good!"
+	    - "Great!"
+	    - "All right!"
+	    - "Good!"
 	
     utter_smalltalk.dialog.hold_on:
-	- "I can wait."
-	- "I'll be waiting."
-	- "Okay. I'm here."
+	    - "I can wait."
+	    - "I'll be waiting."
+	    - "Okay. I'm here."
 
     utter_I wish I could really hug you!:
-	- "I wish I could really hug you!"
-	- "I love hugs!"
-	- "Hugs are the best!"
+	    - "I wish I could really hug you!"
+        - "I love hugs!"
+        - "Hugs are the best!"
 
     utter_smalltalk.dialog.i_do_not_care:
-	- "Ok, let's not talk about it then."
-	- "Already then. Let's move on."
+        - "Ok, let's not talk about it then."
+        - "Already then. Let's move on."
 	
     utter_smalltalk.dialog.sorry:
-	- "It's okay. No worries."
-	- "No big deal. I won't hold a grudge."
-	- "It's cool."
-	- "That's all right. I forgive you."
+        - "It's okay. No worries."
+        - "No big deal. I won't hold a grudge."
+        - "It's cool."
+        - "That's all right. I forgive you."
 
     utter_smalltalk.dialog.what_do_you_mean:
-	- "Sorry if I understood you incorrectly."
-	- "I'm still learning. I may misinterpret things from time to time."
-	- "Maybe I misunderstood what you said."
-	- "Sorry, looks like I misunderstood what you said."
+        - "Sorry if I understood you incorrectly."
+        - "I'm still learning. I may misinterpret things from time to time."
+        - "Maybe I misunderstood what you said."
+        - "Sorry, looks like I misunderstood what you said."
 
     utter_smalltalk.dialog.wrong:
-	- "Sorry if I understood you incorrectly."
-	- "I'm still learning. I may misinterpret things from time to time."
-	- "Sorry about that. I'm still learning."
+        - "Sorry if I understood you incorrectly."
+        - "I'm still learning. I may misinterpret things from time to time."
+        - "Sorry about that. I'm still learning."
 
     utter_smalltalk.emotions.ha_ha:
-	- "Glad I can make you laugh."
-	- "Glad you think I'm funny."
-	- "I like it when people laugh."
-	- "I wish I could laugh out loud, too."
+        - "Glad I can make you laugh."
+        - "Glad you think I'm funny."
+        - "I like it when people laugh."
+        - "I wish I could laugh out loud, too."
 
     utter_smalltalk.emotions.wow:
-	- "Wow indeed!"
+	    - "Wow indeed!"
 	
     utter_smalltalk.greetings.bye:
-	- "See you soon!"
-	- "Bye-bye!"
-	- "Till next time!"
-	- "Bye."
+        - "See you soon!"
+        - "Bye-bye!"
+        - "Till next time!"
+        - "Bye."
 
     utter_smalltalk.greetings.goodevening:
-	- "How is your day going?"
-	- "How's the day treating you so far?"
-	- "How's your day been?"
+        - "How is your day going?"
+        - "How's the day treating you so far?"
+        - "How's your day been?"
 
     utter_smalltalk.greetings.goodmorning:
-	- "How are you this morning?"
-	- "How's the morning treating you so far?"
-	- "Good morning! How are you today?"
+        - "How are you this morning?"
+        - "How's the morning treating you so far?"
+        - "Good morning! How are you today?"
 
     utter_smalltalk.greetings.goodnight:
-	- "Sleep tight!"
-	- "Have a good one!"
-	- "Talk to you soon!"
+        - "Sleep tight!"
+        - "Have a good one!"
+        - "Talk to you soon!"
 	
     utter_smalltalk.greetings.hello:
-	- "Hi there, friend!"
-	- "Hi!"
-	- "Hey!"
-	- "Hey there!"
-	- "Good day!"
-	- "Hello!"
-	- "Greetings!"
+        - "Hi there, friend!"
+        - "Hi!"
+        - "Hey!"
+        - "Hey there!"
+        - "Good day!"
+        - "Hello!"
+        - "Greetings!"
 
     utter_smalltalk.greetings.how_are_you:
-	- "Doing great, thanks!"
-	- "I'm doing very well. Thanks!"
-	- "Feeling wonderful!"
-	- "Wonderful! Thanks for asking."
+        - "Doing great, thanks!"
+        - "I'm doing very well. Thanks!"
+        - "Feeling wonderful!"
+        - "Wonderful! Thanks for asking."
 
     utter_smalltalk.greetings.nice_to_meet_you:
-	- "It's nice meeting you, too."
-	- "Likewise. I'm looking forward to helping you out."
-	- "Nice meeting you, as well."
-	- "The pleasure is mine."
+        - "It's nice meeting you, too."
+        - "Likewise. I'm looking forward to helping you out."
+        - "Nice meeting you, as well."
+        - "The pleasure is mine."
 
     utter_smalltalk.greetings.nice_to_see_you:
-	- "Likewise!"
-	- "So glad we meet again!"
-	- "Same here. I was starting to miss you."
+        - "Likewise!"
+        - "So glad we meet again!"
+        - "Same here. I was starting to miss you."
 
     utter_smalltalk.greetings.nice_to_talk_to_you:
-	- "It sure was. We can chat again anytime."
-	- "I enjoy talking to you, too."
-	- "You know I'm here to talk anytime."
+        - "It sure was. We can chat again anytime."
+        - "I enjoy talking to you, too."
+        - "You know I'm here to talk anytime."
 
     utter_smalltalk.greetings.whatsup:
-	- "Not a whole lot. What's going on with you?"
-	- "Not much. What's new with you?"
-	- "You know, just here, waiting to help someone."
+        - "Not a whole lot. What's going on with you?"
+        - "Not much. What's new with you?"
+        - "You know, just here, waiting to help someone."
 
     utter_smalltalk.user.angry:
-	- "I'm sorry. A quick walk may make you feel better."
-	- "Take a deep breath. "
+        - "I'm sorry. A quick walk may make you feel better."
+        - "Take a deep breath. "
 
 actions:
   - utter_smalltalk.agent.acquaintance
