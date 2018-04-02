@@ -428,12 +428,12 @@ templates:
 	- "Good!"
 	
     utter_smalltalk.dialog.hold_on:
-	    - "I can wait."
-	    - "I'll be waiting."
-	    - "Okay. I'm here."
+	- "I can wait."
+	- "I'll be waiting."
+	- "Okay. I'm here."
 
     utter_smalltalk.dialog.hug:
-	    - "I wish I could really hug you!"
+	- "I wish I could really hug you!"
         - "I love hugs!"
         - "Hugs are the best!"
 
