@@ -1,0 +1,16 @@
+## intent:agent.fired
+- you are fired
+- I fire you
+- you don't work for me anymore
+- we're not working together anymore
+- now you're fired
+- I want to fire you
+- you must get fired
+- it's time to fire you
+- you should be fired
+- I will fire you
+- you are unemployed from now on
+- I will make you unemployed
+- I'm about to fire you
+- I'm firing you
+- you are dismissed

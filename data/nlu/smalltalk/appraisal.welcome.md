@@ -1,0 +1,12 @@
+## intent:appraisal.welcome
+- that's my pleasure
+- my pleasure
+- anytime
+- welcome
+- you're welcome
+- sure welcome
+- welcome here
+- you're so welcome
+- anything you want
+- i'm glad
+- pleasure is mine

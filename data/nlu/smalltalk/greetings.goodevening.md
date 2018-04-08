@@ -1,0 +1,12 @@
+## intent:greetings.goodevening
+- good evening
+- good evening to you
+- hey good evening
+- hello good evening
+- evening
+- good evening there
+- have an awesome evening
+- happy evening 
+- good evening there buddy
+- have a good eveening
+- enjoy the evening

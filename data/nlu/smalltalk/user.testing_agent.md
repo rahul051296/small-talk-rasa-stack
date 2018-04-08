@@ -1,0 +1,12 @@
+## intent:user.testing_agent
+- test
+- I am testing you
+- can I test you
+- I want to test you
+- just testing you
+- let me test you
+- testing chatbot
+- testing
+- this is just a test
+- you are being tested
+- you're tested

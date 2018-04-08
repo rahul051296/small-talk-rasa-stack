@@ -1,0 +1,13 @@
+## intent:dialog.i_do_not_care
+- I don't care
+- I shouldn't care about this
+- whatever
+- I do not care
+- I don't care at all
+- not caring
+- not care at all
+- don't care at all
+- not caring at all
+- idc
+- i don't care about all this.
+- like i care

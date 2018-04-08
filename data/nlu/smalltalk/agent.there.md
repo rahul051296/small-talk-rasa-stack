@@ -1,0 +1,11 @@
+## intent:agent.there
+- are you there?
+- are you there
+- you are there
+- are you near me
+- are you here ?
+- are you here
+- are you still there
+- you are here?
+- you still there?
+- are you still here

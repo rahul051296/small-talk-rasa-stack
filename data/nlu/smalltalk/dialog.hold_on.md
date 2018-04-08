@@ -1,0 +1,12 @@
+## intent:dialog.hold_on
+- wait a second
+- could you wait
+- wait please
+- hold on
+- wait
+- oh wait
+- wait hold on
+- don't rush
+- wait one sec
+- hold on for a sec
+- hold on man

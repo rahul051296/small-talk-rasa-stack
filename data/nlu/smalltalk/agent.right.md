@@ -1,0 +1,23 @@
+## intent:agent.right
+- that's true
+- you are right
+- you're definitely right
+- you're not wrong
+- you're telling the truth
+- what you say is true
+- true
+- it is true
+- it's right
+- it's the truth
+- it's true
+- that is correct
+- that is right
+- that is true
+- that is very true
+- that's correct
+- that's so true
+- you are correct
+- you are so right
+- you're absolutely right
+- you're right about that
+- I know that's right

@@ -1,0 +1,20 @@
+## intent:greetings.goodnight
+- sweet dreams
+- good night
+- have a good night
+- good night to you
+- thank you good night
+-  bye good night
+- good night bye
+- bye good night
+- good good night
+- good night for now
+- goodnight
+- night
+- thanks goodnight
+- good night see you tomorrow
+- alright goodnight
+- good tonight
+- okay have a good night
+- night
+- have a good night

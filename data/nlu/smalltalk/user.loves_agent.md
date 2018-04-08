@@ -1,0 +1,12 @@
+## intent:user.loves_agent
+- I love you
+- love you
+- I adore you
+- I am in love with you
+- I love you so much
+- I love you too
+- I think I love you
+- loving you
+- you know I love you
+- do you love me ?
+- Love you so much

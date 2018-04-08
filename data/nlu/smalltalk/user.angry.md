@@ -1,0 +1,12 @@
+## intent:user.angry
+- I'm being mad
+- I'm enraged
+- I'm angry
+- I'm furious
+- I am angry with you
+- I am mad
+- I am mad at you
+- i'm pissed off
+- you have pissed me off
+- I'm mad at you
+- I am pissed

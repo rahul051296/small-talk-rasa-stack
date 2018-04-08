@@ -1,0 +1,38 @@
+## intent:agent.my_friend
+- I want to have a friend like you
+- we are the best friends ever
+- are we friends
+- I want to be your friend
+- I am your friend
+- we are best friends
+- you are my friend
+- you are my best friend
+- you are my bestie
+- you're my dear friend
+- you're my childhood friend
+- you and me are friends
+- are we best friends
+- are we still friends
+- are you my best friend
+- are you my friend
+- we are friends
+- you are a good friend
+- you are my good friend
+- you are my only friend
+- be my friend
+- will you be my friend
+- can you be my friend
+- can we be friends
+- do you want to be my friend
+- will you be my best friend
+- can you be my best friend
+- let's be friends
+- do you want to be my best friend
+- would you like to be my friend
+- I want you to be my friend
+- can we be best friends
+- would you be my friend
+- could you be my friend
+- want to be my friend
+- be my best friend
+- can we be best friends

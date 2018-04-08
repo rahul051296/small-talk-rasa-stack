@@ -1,0 +1,20 @@
+## intent:greetings.hello
+- long time no see
+- hello
+- hi
+- howdy
+- hey there
+- hey
+- greetings
+- I greet you
+- hi there
+- hello there
+- lovely day isn't it
+- hello again
+- just going to say hi
+- hi there
+- a good day
+- afternoon
+- hello hi
+- heya
+- hey

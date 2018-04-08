@@ -1,0 +1,17 @@
+## intent:confirmation.cancel
+- nevermind forget about it
+- nothing just forget it
+- no just cancel
+- sorry cancel
+- disregard
+- no cancel cancel
+- forget
+- cancel everything
+- cancel that one
+- i want to cancel
+- cancel it
+- cancelled
+- cancel it now
+- don't want cancel
+- cancel soon
+- shall stand cancelled

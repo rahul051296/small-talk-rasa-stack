@@ -1,0 +1,12 @@
+## intent:greetings.nice_to_meet_you
+- nice to meet you
+- it was nice meeting you
+- it was very nice to meet you
+- good to know each other
+- glad to meet you
+- nice meeting you
+- nice to meet you too
+- pleased to meet you
+- pleasure to meet you
+- pleasure to meet you too
+- happy to meet you

@@ -1,0 +1,14 @@
+## intent:agent.boring
+- you are boring
+- you're so boring
+- how boring you are
+- you're really boring
+- you're incredibly boring
+- you are boring me
+- you are very boring
+- i find you very boring man
+- you're really boring me
+- i'm bored of you
+- you are not interseting
+- i find you boring
+- you're boring everyone

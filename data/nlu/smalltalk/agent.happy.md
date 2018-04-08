@@ -1,0 +1,16 @@
+## intent:agent.happy
+- are you happy
+- you are happy
+- you're very happy
+- you're really happy
+- you're so happy
+- how happy you are
+- you're extremely happy
+- you're full of happiness
+- are you happy now
+- are you happy today
+- are you happy with me
+- i think you are happy
+- you seem to be happy
+- why do i feel you are happy
+- i feel i made you happy

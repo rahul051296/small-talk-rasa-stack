@@ -1,0 +1,12 @@
+## intent:agent.occupation
+- do you work?
+- where do you work?
+- where you work?
+- where is your work?
+- where is your office?
+- where is your office location ?
+- your office location?
+- where is your office located?
+- what is your work?
+- place where you work?
+- your work place?

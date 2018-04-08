@@ -1,0 +1,12 @@
+## intent:agent.sure
+- are you sure?
+- are you sure right now?
+- are you sure today?
+- are you sure now?
+- are you sure tonight?
+- are you positive?
+- are you completely sure?
+- are you fully positive?
+- are you sure about it?
+- are you so sure?
+- are you truly positive?

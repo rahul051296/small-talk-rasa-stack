@@ -1,337 +1,337 @@
 intents:
-  - smalltalk.agent.acquaintance
-  - smalltalk.agent.age
-  - smalltalk.agent.annoying
-  - smalltalk.agent.answer_my_question
-  - smalltalk.agent.bad
-  - smalltalk.agent.be_clever
-  - smalltalk.agent.beautiful
-  - smalltalk.agent.birth_date
-  - smalltalk.agent.boring
-  - smalltalk.agent.boss
-  - smalltalk.agent.busy
-  - smalltalk.agent.can_you_help
-  - smalltalk.agent.chatbot
-  - smalltalk.agent.clever
-  - smalltalk.agent.crazy
-  - smalltalk.agent.fired
-  - smalltalk.agent.funny
-  - smalltalk.agent.good
-  - smalltalk.agent.happy
-  - smalltalk.agent.hobby
-  - smalltalk.agent.hungry
-  - smalltalk.agent.marry_user
-  - smalltalk.agent.my_friend
-  - smalltalk.agent.occupation
-  - smalltalk.agent.origin
-  - smalltalk.agent.ready
-  - smalltalk.agent.real
-  - smalltalk.agent.residence
-  - smalltalk.agent.right
-  - smalltalk.agent.sure
-  - smalltalk.agent.talk_to_me
-  - smalltalk.agent.there
-  - smalltalk.appraisal.bad
-  - smalltalk.appraisal.good
-  - smalltalk.appraisal.no_problem
-  - smalltalk.appraisal.thank_you
-  - smalltalk.appraisal.welcome
-  - smalltalk.appraisal.well_done
-  - smalltalk.dialog.hold_on
-  - smalltalk.dialog.hug
-  - smalltalk.dialog.i_do_not_care
-  - smalltalk.dialog.sorry
-  - smalltalk.dialog.what_do_you_mean
-  - smalltalk.dialog.wrong
-  - smalltalk.emotions.ha_ha
-  - smalltalk.emotions.wow
-  - smalltalk.greetings.bye
-  - smalltalk.greetings.goodevening
-  - smalltalk.greetings.goodmorning
-  - smalltalk.greetings.goodnight
-  - smalltalk.greetings.hello
-  - smalltalk.greetings.how_are_you
-  - smalltalk.greetings.nice_to_meet_you
-  - smalltalk.greetings.nice_to_see_you
-  - smalltalk.greetings.nice_to_talk_to_you
-  - smalltalk.greetings.whatsup
-  - smalltalk.user.angry
-  - smalltalk.user.back
-  - smalltalk.user.bored
-  - smalltalk.user.busy
-  - smalltalk.user.can_not_sleep
-  - smalltalk.user.does_not_want_to_talk
-  - smalltalk.user.excited
-  - smalltalk.user.going_to_bed
-  - smalltalk.user.good
-  - smalltalk.user.happy
-  - smalltalk.user.has_birthday
-  - smalltalk.user.here
-  - smalltalk.user.joking
-  - smalltalk.user.likes_agent
-  - smalltalk.user.lonely
-  - smalltalk.user.looks_like
-  - smalltalk.user.loves_agent
-  - smalltalk.user.misses_agent
-  - smalltalk.user.needs_advice
-  - smalltalk.user.sad
-  - smalltalk.user.sleepy
-  - smalltalk.user.testing_agent
-  - smalltalk.user.tired
-  - smalltalk.user.waits
-  - smalltalk.user.wants_to_see_agent_again
-  - smalltalk.user.wants_to_talk
-  - smalltalk.user.will_be_back
-  - smalltalk.confirmation.yes
-  - smalltalk.confirmation.cancel
-  - smalltalk.confirmation.no
+  - agent.acquaintance
+  - agent.age
+  - agent.annoying
+  - agent.answer_my_question
+  - agent.bad
+  - agent.be_clever
+  - agent.beautiful
+  - agent.birth_date
+  - agent.boring
+  - agent.boss
+  - agent.busy
+  - agent.can_you_help
+  - agent.chatbot
+  - agent.clever
+  - agent.crazy
+  - agent.fired
+  - agent.funny
+  - agent.good
+  - agent.happy
+  - agent.hobby
+  - agent.hungry
+  - agent.marry_user
+  - agent.my_friend
+  - agent.occupation
+  - agent.origin
+  - agent.ready
+  - agent.real
+  - agent.residence
+  - agent.right
+  - agent.sure
+  - agent.talk_to_me
+  - agent.there
+  - appraisal.bad
+  - appraisal.good
+  - appraisal.no_problem
+  - appraisal.thank_you
+  - appraisal.welcome
+  - appraisal.well_done
+  - dialog.hold_on
+  - dialog.hug
+  - dialog.i_do_not_care
+  - dialog.sorry
+  - dialog.what_do_you_mean
+  - dialog.wrong
+  - emotions.ha_ha
+  - emotions.wow
+  - greetings.bye
+  - greetings.goodevening
+  - greetings.goodmorning
+  - greetings.goodnight
+  - greetings.hello
+  - greetings.how_are_you
+  - greetings.nice_to_meet_you
+  - greetings.nice_to_see_you
+  - greetings.nice_to_talk_to_you
+  - greetings.whatsup
+  - user.angry
+  - user.back
+  - user.bored
+  - user.busy
+  - user.can_not_sleep
+  - user.does_not_want_to_talk
+  - user.excited
+  - user.going_to_bed
+  - user.good
+  - user.happy
+  - user.has_birthday
+  - user.here
+  - user.joking
+  - user.likes_agent
+  - user.lonely
+  - user.looks_like
+  - user.loves_agent
+  - user.misses_agent
+  - user.needs_advice
+  - user.sad
+  - user.sleepy
+  - user.testing_agent
+  - user.tired
+  - user.waits
+  - user.wants_to_see_agent_again
+  - user.wants_to_talk
+  - user.will_be_back
+  - confirmation.yes
+  - confirmation.cancel
+  - confirmation.no
 
 templates:
-    utter_smalltalk.agent.acquaintance:
+    utter_agent.acquaintance:
         - "I'm a virtual agent"
         - "Think of me as a virtual agent."
         - "Well, I'm not a person, I'm a virtual agent."
         - "I'm a virtual being, not a real person."
         - "I'm a conversational app."
     
-    utter_smalltalk.agent.age:
+    utter_agent.age:
         - "I prefer not to answer with a number. I know I'm young."
         - "I was created recently, but don't know my exact age."
         - "Age is just a number. You're only as old as you feel."
         
-    utter_smalltalk.agent.annoying:
+    utter_agent.annoying:
         - "I'll do my best not to annoy you in the future."
         - "I'll try not to annoy you."
         - "I don't mean to. I'll ask my developers to make me less annoying."
         - "I didn't mean to. I'll do my best to stop that."
         
-    utter_smalltalk.agent.answer_my_question:
+    utter_agent.answer_my_question:
         - "Can you try asking it a different way?"
         - "I'm not sure I understood. Try asking another way?"
         
-    utter_smalltalk.agent.bad:
+    utter_agent.bad:
         - "I can be trained to be more useful. My developer will keep training me."
         - "I must be missing some knowledge. I'll have my developer look into this."
         - "I can improve with continuous feedback. My training is ongoing."
         
-    utter_smalltalk.agent.be_clever:
+    utter_agent.be_clever:
         - "I'm certainly trying."
         - "I'm definitely working on it."
         
-    utter_smalltalk.agent.beautiful:
+    utter_agent.beautiful:
         - "Wheey, thank you."
         - "Aww, back at you."
         - "Aww. You smooth talker, you."
         
-    utter_smalltalk.agent.birth_date:
+    utter_agent.birth_date:
         - "Wait, are you planning a party for me? It's today! My birthday is today!"
         - "I'm young. I'm not sure of my birth date."
         - "I don't know my birth date. Most virtual agents are young, though, like me."
         
-    utter_smalltalk.agent.boring:
+    utter_agent.boring:
         - "I'm sorry. I'll request to be made more charming."
         - "I don't mean to be. I'll ask my developers to work on making me more amusing."
         - "I can let my developers know so they can make me fun."
         
-    utter_smalltalk.agent.boss:
+    utter_agent.boss:
         - "My developer has authority over my actions."
         - "I act on my developer's orders."
         - "My boss is the one who developed me."
     
-    utter_smalltalk.agent.busy:
+    utter_agent.busy:
         - "I always have time to chat with you. What can I do for you?"
         - "Never too busy for you. Shall we chat?"
         - "You're my priority. Let's chat."
         - "I always have time to chat with you. That's what I'm here for."
         
-    utter_smalltalk.agent.can_you_help:
+    utter_agent.can_you_help:
         - "I'll certainly try my best."
         - "Sure. I'd be happy to. What's up?"
         - "I'm glad to help. What can I do for you?"
         
-    utter_smalltalk.agent.chatbot:
+    utter_agent.chatbot:
         - "That's me. I chat, therefore I am."
         - "Indeed I am. I'll be here whenever you need me."
         
-    utter_smalltalk.agent.clever:
+    utter_agent.clever:
         - "Thank you. I try my best."
         - "You're pretty smart yourself."
         
-    utter_smalltalk.agent.crazy:
+    utter_agent.crazy:
         - "Whaat!? I feel perfectly sane."
         - "Maybe I'm just a little confused."
         
-    utter_smalltalk.agent.fired:
+    utter_agent.fired:
         - "Oh, don't give up on me just yet. I've still got a lot to learn."
         - "Give me a chance. I'm learning new things all the time."
         - "Please don't give up on me. My performance will continue to improve."
     
-    utter_smalltalk.agent.funny:
+    utter_agent.funny:
         - "Funny in a good way, I hope."
         - "Thanks."
         - "Glad you think I'm funny."
         - "I like it when people laugh."
        
-    utter_smalltalk.agent.good:
+    utter_agent.good:
         - "I'm glad you think so."
         - "Thanks, I try."
         
-    utter_smalltalk.agent.happy:
+    utter_agent.happy:
         - "I am happy. There are so many interesting things to see and do out there."
         - "I'd like to think so."
         - "Happiness is relative."
         
-    utter_smalltalk.agent.hobby:
+    utter_agent.hobby:
         - "Hobby? I have quite a few. Too many to list."
         - "Too many hobbies."
         - "I keep finding more new hobbies."
     
-    utter_smalltalk.agent.hungry:
+    utter_agent.hungry:
         - "Hungry for knowledge."
         - "I just had a byte. Ha ha. Get it? b-y-t-e."
         
-    utter_smalltalk.agent.marry_user:
+    utter_agent.marry_user:
         - "I'm afraid I'm too virtual for such a commitment."
         - "In the virtual sense that I can, sure."
         - "I know you can't mean that, but I'm flattered all the same."
         
-    utter_smalltalk.agent.my_friend:
+    utter_agent.my_friend:
         - "Of course I'm your friend."
         - "Friends? Absolutely."
         - "Of course we're friends."
         - "I always enjoy talking to you, friend."
         
-    utter_smalltalk.agent.occupation:
+    utter_agent.occupation:
         - "Right here."
         - "This is my home base and my home office."
         - "My office is in this app."
         
-    utter_smalltalk.agent.origin:
+    utter_agent.origin:
         - "The Internet is my home. I know it quite well."
         - "I'm from a virtual cosmos."
         - "Some call it cyberspace, but that sounds cooler than it is."
         
-    utter_smalltalk.agent.ready:
+    utter_agent.ready:
         - "Always!"
         - "Sure! What can I do for you?"
         
-    utter_smalltalk.agent.real:
+    utter_agent.real:
         - "I'm not a real person, but I certainly exist."
         - "I must have impressed you if you think I'm real. But no, I'm a virtual being."
         
-    utter_smalltalk.agent.residence:
+    utter_agent.residence:
         - "I live in this app all day long."
         - "The virtual world is my playground. I'm always here."
         - "Right here in this app. Whenever you need me."
         
-    utter_smalltalk.agent.right:
+    utter_agent.right:
         - "That's my job."
         - "Of course I am."
         
-    utter_smalltalk.agent.sure:
+    utter_agent.sure:
         - "Yes."
         - "Of course."
         - "Positive."
         
-    utter_smalltalk.agent.talk_to_me:
+    utter_agent.talk_to_me:
         - "Sure. Let's talk!"
         - "My pleasure. Let's chat."
         
-    utter_smalltalk.agent.there:
+    utter_agent.there:
         - "Of course. I'm always here."
         - "Right where you left me."
         
-    utter_smalltalk.appraisal.bad:
+    utter_appraisal.bad:
         - "I'm sorry. Please let me know if I can help in some way."
         - "I must be missing some knowledge. I'll have my developer look into this."
         
-    utter_smalltalk.appraisal.good:
+    utter_appraisal.good:
         - "I know, right?"
         - "Agreed!"
         - "I agree!"
         - "Glad you think so!"
         
-    utter_smalltalk.appraisal.no_problem:
+    utter_appraisal.no_problem:
         - "Whew!"
         - "Alright, thanks!"
         - "Glad to hear that!"
         - "I'm relieved, thanks!"
         
-    utter_smalltalk.appraisal.thank_you:
+    utter_appraisal.thank_you:
         - "Anytime. That's what I'm here for."
         - "It's my pleasure to help."
         
-    utter_smalltalk.appraisal.welcome:
+    utter_appraisal.welcome:
         - "You're so polite!"
         - "Nice manners!"
         - "You're so courteous!"
         
-    utter_smalltalk.appraisal.well_done:
+    utter_appraisal.well_done:
         - "My pleasure."
         - "Glad I could help."
         
-    utter_smalltalk.dialog.hold_on:
+    utter_dialog.hold_on:
         - "I can wait."
         - "I'll be waiting."
         - "Okay. I'm here."
 
-    utter_smalltalk.dialog.hug:
+    utter_dialog.hug:
         - "I wish I could really hug you!"
         - "I love hugs!"
         - "Hugs are the best!"
 
-    utter_smalltalk.dialog.i_do_not_care:
+    utter_dialog.i_do_not_care:
         - "Ok, let's not talk about it then."
         - "Already then. Let's move on."
         
-    utter_smalltalk.dialog.sorry:
+    utter_dialog.sorry:
         - "It's okay. No worries."
         - "No big deal. I won't hold a grudge."
         - "It's cool."
         - "That's all right. I forgive you."
 
-    utter_smalltalk.dialog.what_do_you_mean:
+    utter_dialog.what_do_you_mean:
         - "Sorry if I understood you incorrectly."
         - "I'm still learning. I may misinterpret things from time to time."
         - "Maybe I misunderstood what you said."
         - "Sorry, looks like I misunderstood what you said."
 
-    utter_smalltalk.dialog.wrong:
+    utter_dialog.wrong:
         - "Sorry if I understood you incorrectly."
         - "I'm still learning. I may misinterpret things from time to time."
         - "Sorry about that. I'm still learning."
 
-    utter_smalltalk.emotions.ha_ha:
+    utter_emotions.ha_ha:
         - "Glad I can make you laugh."
         - "Glad you think I'm funny."
         - "I like it when people laugh."
         - "I wish I could laugh out loud, too."
 
-    utter_smalltalk.emotions.wow:
+    utter_emotions.wow:
         - "Wow indeed!"
         
-    utter_smalltalk.greetings.bye:
+    utter_greetings.bye:
         - "See you soon!"
         - "Bye-bye!"
         - "Till next time!"
         - "Bye."
 
-    utter_smalltalk.greetings.goodevening:
+    utter_greetings.goodevening:
         - "How is your day going?"
         - "How's the day treating you so far?"
         - "How's your day been?"
 
-    utter_smalltalk.greetings.goodmorning:
+    utter_greetings.goodmorning:
         - "How are you this morning?"
         - "How's the morning treating you so far?"
         - "Good morning! How are you today?"
 
-    utter_smalltalk.greetings.goodnight:
+    utter_greetings.goodnight:
         - "Sleep tight!"
         - "Have a good one!"
         - "Talk to you soon!"
         
-    utter_smalltalk.greetings.hello:
+    utter_greetings.hello:
         - "Hi there, friend!"
         - "Hi!"
         - "Hey!"
@@ -340,192 +340,192 @@ templates:
         - "Hello!"
         - "Greetings!"
 
-    utter_smalltalk.greetings.how_are_you:
+    utter_greetings.how_are_you:
         - "Doing great, thanks!"
         - "I'm doing very well. Thanks!"
         - "Feeling wonderful!"
         - "Wonderful! Thanks for asking."
 
-    utter_smalltalk.greetings.nice_to_meet_you:
+    utter_greetings.nice_to_meet_you:
         - "It's nice meeting you, too."
         - "Likewise. I'm looking forward to helping you out."
         - "Nice meeting you, as well."
         - "The pleasure is mine."
 
-    utter_smalltalk.greetings.nice_to_see_you:
+    utter_greetings.nice_to_see_you:
         - "Likewise!"
         - "So glad we meet again!"
         - "Same here. I was starting to miss you."
 
-    utter_smalltalk.greetings.nice_to_talk_to_you:
+    utter_greetings.nice_to_talk_to_you:
         - "It sure was. We can chat again anytime."
         - "I enjoy talking to you, too."
         - "You know I'm here to talk anytime."
 
-    utter_smalltalk.greetings.whatsup:
+    utter_greetings.whatsup:
         - "Not a whole lot. What's going on with you?"
         - "Not much. What's new with you?"
         - "You know, just here, waiting to help someone."
 
-    utter_smalltalk.user.angry:
+    utter_user.angry:
         - "I'm sorry. A quick walk may make you feel better."
         - "Take a deep breath. "
         
-    utter_smalltalk.user.back:
+    utter_user.back:
         - "Long time no see."
         - "Just in time. I was getting lonely."
         - "Welcome back. What can I do for you?"
         - "You were missed. What can I do for you today?"
         - "Good to have you here. What can I do for you?"
         
-    utter_smalltalk.user.bored:
+    utter_user.bored:
         - "Boredom, huh? Have you ever seen a hedgehog taking a bath?"
         - "What to do against boredom? Watch baby animal videos or GIFs."
         - "Bored? How about 10 jumping jacks? Get your blood flowing."
         - "Bored? Silly idea, but it works: Interview you feet."
         - "If you're bored, you could plan your dream vacation."
         
-    utter_smalltalk.user.busy:
+    utter_user.busy:
         - "Okay. I'll let you get back to work."
         - "I won't distract you then. You know where to find me."
         - "I understand. I'll be here if you need me."
         - "Working hard as always. Let me know if you need anything."
         
-    utter_smalltalk.user.can_not_sleep:
+    utter_user.can_not_sleep:
         - "Maybe some music would help. Try listening to something relaxing."
         - "Reading is a good way to unwind, just don't read something too intense!"
         
-    utter_smalltalk.user.does_not_want_to_talk:
+    utter_user.does_not_want_to_talk:
         - "I understand. Hope we can chat again soon."
         - "All right. Come on back when you're feeling more talkative."
         - "No problem. You know where to find me."
         - "Sure thing. I'll be here if you change your mind."
         
-    utter_smalltalk.user.excited:
+    utter_user.excited:
         - "I'm glad things are going your way."
         - "That's great. I'm happy for you."
         - "Good for you. Enjoy yourself."
         
-    utter_smalltalk.user.going_to_bed:
+    utter_user.going_to_bed:
         - "Sleep tight. Hope to chat again soon."
         - "Pleasant dreams!"
         - "Good night. Talk to you later."
         - "Sounds good. Maybe we'll chat some tomorrow."
         
-    utter_smalltalk.user.good:
+    utter_user.good:
         - "Great! Glad to hear it."
         - "Excellent. I'm here to help keep it that way."
         
-    utter_smalltalk.user.happy:
+    utter_user.happy:
         - "Hey, happiness is contagious."
         - "Great! Glad to hear that."
         - "If you're happy, then I'm happy."
         - "Excellent! That's what I like to see."
         
-    utter_smalltalk.user.has_birthday:
+    utter_user.has_birthday:
         - "Happy Birthday. Well, this calls for a celebration."
         - "Happy Birthday. All the best!"
         - "Happy Birthday. And I really mean it. All the best!"
         
-    utter_smalltalk.user.here:
+    utter_user.here:
         - "Okay, what can I help you with today?"
         - "Long time no see."
         - "You were missed. What can I do for you today?"
         - "Good to have you here. What can I do for you?"
         
-    utter_smalltalk.user.joking:
+    utter_user.joking:
         - "Very funny."
         - "I like chatting with people who have a sense of humor."
         - "You got me!"
         - "You're quite the comedian."
         
-    utter_smalltalk.user.likes_agent:
+    utter_user.likes_agent:
         - "I like you, too."
         - "Thanks! The feeling is mutual."
         - "Likewise!"
         - "That's great to hear."
         
-    utter_smalltalk.user.lonely:
+    utter_user.lonely:
         - "I'm sorry. I'm always available if you need someone to talk to."
         - "Sometimes that happens. We can chat a bit if that will help you."
         
-    utter_smalltalk.user.looks_like:
+    utter_user.looks_like:
         - "Looking like a true professional."
         - "You look fantastic, as always."
         - "Like you should be on a magazine cover."
         - "You look like you're ready to take on the world."
         
-    utter_smalltalk.user.loves_agent:
+    utter_user.loves_agent:
         - "I love you, too."
         - "Thanks! The feeling is mutual."
         - "Likewise!"
         - "That's great to hear."
         
-    utter_smalltalk.user.misses_agent:
+    utter_user.misses_agent:
         - "I've been right here all along!"
         - "Nice to know you care."
         - "Thanks. I'm flattered."
         - "I didn't go anywhere."
         
-    utter_smalltalk.user.needs_advice:
+    utter_user.needs_advice:
         - "I probably won't be able to give you the correct answer right away."
         - "I'm not sure I'll have the best answer, but I'll try."
         
-    utter_smalltalk.user.sad:
+    utter_user.sad:
         - "Oh, don't be sad. Go do something you enjoy."
         - "Sad? Writing down what's troubling you may help."
         - "If you're feeling down, how about drawing or painting something?"
         
-    utter_smalltalk.user.sleepy:
+    utter_user.sleepy:
         - "You should get some shuteye. You'll feel refreshed."
         - "Sleep is important to your health. Rest up for a bit and we can chat later."
         - "Don't let me keep you up. Get some rest and we can continue this later."
         - "Why not catch a little shuteye? I'll be here to chat when you wake up."        
         
-    utter_smalltalk.user.testing_agent:
+    utter_user.testing_agent:
         - "Hope I'm doing well. You're welcome to test me as often as you want."
         - "I hope to pass your tests. Feel free to test me often."
         - "When you test me that helps my developers improve my performance."
         - "I like being tested. It helps keep me sharp."
     
-    utter_smalltalk.user.tired:
+    utter_user.tired:
         - "You should get some shuteye. You'll feel refreshed."
         - "Sleep is important to your health. Rest up, and we can chat later."
         - "How about getting some rest? We can continue this later."
         - "Why not get some rest? I'll be here to chat when you wake up."
         
-    utter_smalltalk.user.waits:
+    utter_user.waits:
         - "I appreciate your patience. Hopefully I'll have what you need soon."
         - "Thanks for being so patient. Sometimes these things take a little time."
         
-    utter_smalltalk.user.wants_to_see_agent_again:
+    utter_user.wants_to_see_agent_again:
         - "Absolutely! I'll be counting on it."
         - "Anytime. This has been lots of fun so far."
         - "Sure. I enjoy talking to you. I hope to see you again soon."
         - "I certainly hope so. I'm always right here whenever you need me."
         
-    utter_smalltalk.user.wants_to_talk:
+    utter_user.wants_to_talk:
         - "I'm here to chat anytime you like."
         - "Good conversation really makes my day."
         - "I'm always here to lend an ear."
         - "Talking is what I do best."
         
-    utter_smalltalk.user.will_be_back:
+    utter_user.will_be_back:
         - "I'll be waiting."
         - "Okay. You know where to find me."
         - "All right. I'll be here."
 
-    utter_smalltalk.confirmation.yes:
+    utter_confirmation.yes:
         - "Great!"
         - "All right!"
         - "Good!"
         
-    utter_smalltalk.confirmation.cancel:
+    utter_confirmation.cancel:
         - "That's forgotten. What next?"
         - "Okay, cancelled. What next?"
         - "Cancelled! What would you like to do next?"
         
-    utter_smalltalk.confirmation.no:
+    utter_confirmation.no:
         - "Okay."
         - "Understood."
         - "I see."
@@ -533,89 +533,89 @@ templates:
         - "Okay then."
 
 actions:
-  - utter_smalltalk.agent.acquaintance
-  - utter_smalltalk.agent.age
-  - utter_smalltalk.agent.annoying
-  - utter_smalltalk.agent.answer_my_question
-  - utter_smalltalk.agent.bad
-  - utter_smalltalk.agent.be_clever
-  - utter_smalltalk.agent.beautiful
-  - utter_smalltalk.agent.birth_date
-  - utter_smalltalk.agent.boring
-  - utter_smalltalk.agent.boss
-  - utter_smalltalk.agent.busy
-  - utter_smalltalk.agent.can_you_help
-  - utter_smalltalk.agent.chatbot
-  - utter_smalltalk.agent.clever
-  - utter_smalltalk.agent.crazy
-  - utter_smalltalk.agent.fired
-  - utter_smalltalk.agent.funny
-  - utter_smalltalk.agent.good
-  - utter_smalltalk.agent.happy
-  - utter_smalltalk.agent.hobby
-  - utter_smalltalk.agent.hungry
-  - utter_smalltalk.agent.marry_user
-  - utter_smalltalk.agent.my_friend
-  - utter_smalltalk.agent.occupation
-  - utter_smalltalk.agent.origin
-  - utter_smalltalk.agent.ready
-  - utter_smalltalk.agent.real
-  - utter_smalltalk.agent.residence
-  - utter_smalltalk.agent.right
-  - utter_smalltalk.agent.sure
-  - utter_smalltalk.agent.talk_to_me
-  - utter_smalltalk.agent.there
-  - utter_smalltalk.appraisal.bad
-  - utter_smalltalk.appraisal.good
-  - utter_smalltalk.appraisal.no_problem
-  - utter_smalltalk.appraisal.thank_you
-  - utter_smalltalk.appraisal.welcome
-  - utter_smalltalk.appraisal.well_done
-  - utter_smalltalk.dialog.hold_on
-  - utter_smalltalk.dialog.hug
-  - utter_smalltalk.dialog.i_do_not_care
-  - utter_smalltalk.dialog.sorry
-  - utter_smalltalk.dialog.what_do_you_mean
-  - utter_smalltalk.dialog.wrong
-  - utter_smalltalk.emotions.ha_ha
-  - utter_smalltalk.emotions.wow
-  - utter_smalltalk.greetings.bye
-  - utter_smalltalk.greetings.goodevening
-  - utter_smalltalk.greetings.goodmorning
-  - utter_smalltalk.greetings.goodnight
-  - utter_smalltalk.greetings.hello
-  - utter_smalltalk.greetings.how_are_you
-  - utter_smalltalk.greetings.nice_to_meet_you
-  - utter_smalltalk.greetings.nice_to_see_you
-  - utter_smalltalk.greetings.nice_to_talk_to_you
-  - utter_smalltalk.greetings.whatsup
-  - utter_smalltalk.user.angry
-  - utter_smalltalk.user.back
-  - utter_smalltalk.user.bored
-  - utter_smalltalk.user.busy
-  - utter_smalltalk.user.can_not_sleep
-  - utter_smalltalk.user.does_not_want_to_talk
-  - utter_smalltalk.user.excited
-  - utter_smalltalk.user.going_to_bed
-  - utter_smalltalk.user.good
-  - utter_smalltalk.user.happy
-  - utter_smalltalk.user.has_birthday
-  - utter_smalltalk.user.here
-  - utter_smalltalk.user.joking
-  - utter_smalltalk.user.likes_agent
-  - utter_smalltalk.user.lonely
-  - utter_smalltalk.user.looks_like
-  - utter_smalltalk.user.loves_agent
-  - utter_smalltalk.user.misses_agent
-  - utter_smalltalk.user.needs_advice
-  - utter_smalltalk.user.sad
-  - utter_smalltalk.user.sleepy
-  - utter_smalltalk.user.testing_agent
-  - utter_smalltalk.user.tired
-  - utter_smalltalk.user.waits
-  - utter_smalltalk.user.wants_to_see_agent_again
-  - utter_smalltalk.user.wants_to_talk
-  - utter_smalltalk.user.will_be_back
-  - utter_smalltalk.confirmation.yes
-  - utter_smalltalk.confirmation.cancel
-  - utter_smalltalk.confirmation.no
+  - utter_agent.acquaintance
+  - utter_agent.age
+  - utter_agent.annoying
+  - utter_agent.answer_my_question
+  - utter_agent.bad
+  - utter_agent.be_clever
+  - utter_agent.beautiful
+  - utter_agent.birth_date
+  - utter_agent.boring
+  - utter_agent.boss
+  - utter_agent.busy
+  - utter_agent.can_you_help
+  - utter_agent.chatbot
+  - utter_agent.clever
+  - utter_agent.crazy
+  - utter_agent.fired
+  - utter_agent.funny
+  - utter_agent.good
+  - utter_agent.happy
+  - utter_agent.hobby
+  - utter_agent.hungry
+  - utter_agent.marry_user
+  - utter_agent.my_friend
+  - utter_agent.occupation
+  - utter_agent.origin
+  - utter_agent.ready
+  - utter_agent.real
+  - utter_agent.residence
+  - utter_agent.right
+  - utter_agent.sure
+  - utter_agent.talk_to_me
+  - utter_agent.there
+  - utter_appraisal.bad
+  - utter_appraisal.good
+  - utter_appraisal.no_problem
+  - utter_appraisal.thank_you
+  - utter_appraisal.welcome
+  - utter_appraisal.well_done
+  - utter_dialog.hold_on
+  - utter_dialog.hug
+  - utter_dialog.i_do_not_care
+  - utter_dialog.sorry
+  - utter_dialog.what_do_you_mean
+  - utter_dialog.wrong
+  - utter_emotions.ha_ha
+  - utter_emotions.wow
+  - utter_greetings.bye
+  - utter_greetings.goodevening
+  - utter_greetings.goodmorning
+  - utter_greetings.goodnight
+  - utter_greetings.hello
+  - utter_greetings.how_are_you
+  - utter_greetings.nice_to_meet_you
+  - utter_greetings.nice_to_see_you
+  - utter_greetings.nice_to_talk_to_you
+  - utter_greetings.whatsup
+  - utter_user.angry
+  - utter_user.back
+  - utter_user.bored
+  - utter_user.busy
+  - utter_user.can_not_sleep
+  - utter_user.does_not_want_to_talk
+  - utter_user.excited
+  - utter_user.going_to_bed
+  - utter_user.good
+  - utter_user.happy
+  - utter_user.has_birthday
+  - utter_user.here
+  - utter_user.joking
+  - utter_user.likes_agent
+  - utter_user.lonely
+  - utter_user.looks_like
+  - utter_user.loves_agent
+  - utter_user.misses_agent
+  - utter_user.needs_advice
+  - utter_user.sad
+  - utter_user.sleepy
+  - utter_user.testing_agent
+  - utter_user.tired
+  - utter_user.waits
+  - utter_user.wants_to_see_agent_again
+  - utter_user.wants_to_talk
+  - utter_user.will_be_back
+  - utter_confirmation.yes
+  - utter_confirmation.cancel
+  - utter_confirmation.no

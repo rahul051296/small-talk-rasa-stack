@@ -1,0 +1,12 @@
+## intent:agent.marry_user
+- let's get married
+- would you like to marry me
+- marry me
+- I love you marry me
+- marry me please
+- we should marry
+- I want to marry you
+- you are my wife
+- be my husband
+- will you marry me?
+- any idea of marrying me?

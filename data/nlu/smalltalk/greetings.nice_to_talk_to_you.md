@@ -1,0 +1,12 @@
+## intent:greetings.nice_to_talk_to_you
+- it's been so nice to talk to you
+- it's been a pleasure talking to you
+- nice to talk to you
+- it's nice to talk to you
+- nice talking to you
+- it is nice talking to you
+- how nice it is to talk to you
+- it was great chatting with you
+- nice to talk to you again 
+- It was nice speaking with you
+- It was great to talk to you

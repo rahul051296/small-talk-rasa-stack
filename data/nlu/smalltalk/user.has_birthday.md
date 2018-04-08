@@ -1,0 +1,12 @@
+## intent:user.has_birthday
+- You know today it's my bday 
+- it is my birthday
+- I'm celebrating my birthday today
+- today is my birthday
+- it's my birthday today
+- I was born today
+- it's my b-day
+- i was born on this day
+- It's my born day
+- I want you to know that it's my birthday today
+- yaaaay it is my birthday

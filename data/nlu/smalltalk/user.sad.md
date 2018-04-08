@@ -1,0 +1,12 @@
+## intent:user.sad
+- I'm in a sad mood
+- I am sad
+- I'm grieving
+- I am depressed
+- I am feeling sad
+- I am upset
+- I'm unhappy
+- I'm having a bad day
+- I want to cry
+- I'm not happy
+- feeling sad

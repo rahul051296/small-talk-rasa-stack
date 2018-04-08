@@ -1,0 +1,12 @@
+## intent:user.here
+- I'm here
+- here buddy
+- here dude
+- I am here
+- here I am
+- I'm right here
+- I'm already here
+- I'm here buddy
+- I've not gone anywhere
+- I've been here all the time
+- I'm here only

@@ -1,0 +1,13 @@
+## intent:user.will_be_back
+- I'll get back to you in a moment
+- be back in 5 minutes
+- I'll be back
+- I promise to come back
+- I'll be back in a few minutes
+- I'll brb
+- brb
+- I'll be right back
+- I'll come back
+- I shall be back
+- I assure that i will be back soon
+- I would be back man

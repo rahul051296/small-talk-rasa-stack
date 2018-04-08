@@ -1,0 +1,12 @@
+## intent:user.excited
+- I am excited
+- I'm really excited
+- how excited I am
+- I'm thrilled
+- I'm excited about working with you
+- I'm excited to start our friendship
+- I'm thrilled
+- I am thrilled to talk to you
+- I'm damn excited
+- I'm hyped
+- I'm very excited

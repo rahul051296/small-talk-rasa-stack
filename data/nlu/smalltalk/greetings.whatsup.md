@@ -1,0 +1,21 @@
+## intent:greetings.whatsup
+- what is on your mind?
+- what's happened
+- what is up
+- what's up
+- whazzup
+- sup
+- sup?
+- good what's up
+- I said what's up
+- then what's up
+- what's shaking
+- wassup
+- what are you doing?
+- what are you doing
+- what is going on
+- what is happening
+- what's cracking
+- what's cooking
+- hey what's up
+- what's up today

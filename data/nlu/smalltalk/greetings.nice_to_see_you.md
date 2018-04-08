@@ -1,0 +1,18 @@
+## intent:greetings.nice_to_see_you
+- it's nice to see you
+- lovely to see you
+- I'm glad to see you
+- great to see you
+- it's good to see you
+- glad to see you
+- how good it is to see you
+- always a pleasure to see you
+- nice to see you
+- good to see you
+- great to see you again
+- great to see you too
+- I am glad to see you again
+- nice to see you again
+- glad to see you too
+- good to see you again
+- it's good to see you too

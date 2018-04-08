@@ -14,7 +14,7 @@ logger = logging.getLogger(__name__)
 
 def train_dialogue(domain_file='domain.yml',
                    model_path='./models/dialogue/default/dialogue_model',
-                   training_data_file='./data/stories.md'):
+                   training_data_file='./data/dialogue/stories.md'):
     agent = Agent(domain_file, policies=[MemoizationPolicy(), KerasPolicy()])
 
     agent.train(

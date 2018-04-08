@@ -14,10 +14,12 @@ from rasa_core.channels.rest import HttpInputComponent
 from flask import Blueprint, request, jsonify
 from flask_cors import CORS, cross_origin
 
+from filter import intentStatus
+
 logger = logging.getLogger(__name__)
 
 
-class Bot(HttpInputComponent):
+class TicketBot(HttpInputComponent):
     """A simple web bot that listens on a url and responds."""
 
     def blueprint(self, on_new_message):
@@ -39,6 +41,7 @@ class Bot(HttpInputComponent):
                 query = request.args.get('q')
                 sender_id = request.args.get('id')
             out = CollectingOutputChannel()
+            # intentStatus(query)
             on_new_message(UserMessage(query, out, sender_id))
             responses = [m for _, m in out.messages]
             return jsonify(responses)
@@ -52,7 +55,7 @@ def run(serve_forever=True):
     # path to your dialogues models
     agent = Agent.load("models/dialogue/default/dialogue_model", interpreter=interpreter)
     # http api endpoint for responses
-    input_channel = Bot()
+    input_channel = TicketBot()
     if serve_forever:
         agent.handle_channel(HttpInputChannel(5004, "/", input_channel))
     return agent

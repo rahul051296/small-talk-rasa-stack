@@ -1,0 +1,15 @@
+## intent:agent.hobby
+- what do you do for fun
+- what's your hobby
+- tell me about your hobby
+- do you have a hobby
+- what about your hobby
+- your hobby
+- what are your hobbies
+- what are your hobbies?
+- what do you do when you are bored
+- how do you spend your free time
+- tell me more about your hobbies?
+- i want to know about your hobbies
+- what do you do when you have nothing to do
+- how do you spend your time?

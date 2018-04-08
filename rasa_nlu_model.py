@@ -11,4 +11,4 @@ def train_nlu(data, config, model_dir):
 
 
 if __name__ == '__main__':
-    train_nlu('./data/data.md', 'config.json', './models/nlu')
+    train_nlu('./data/nlu', 'config.json', './models/nlu')

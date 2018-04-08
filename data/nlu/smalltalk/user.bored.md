@@ -1,0 +1,12 @@
+## intent:user.bored
+- soo bored
+- that was boring
+- I'm bored
+- bored
+- boring
+- I am getting bored
+- this is boring
+- very boring
+- it bores me
+- i had a slow day
+- i am very bored

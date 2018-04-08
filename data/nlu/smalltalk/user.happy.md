@@ -1,0 +1,12 @@
+## intent:user.happy
+- Feeling happy
+- I am happy
+- I'm happy to see you
+- happy
+- if you're happy then I'm happy
+- I'm happy for you
+- I'm happy to help
+- I'm happy to see you
+- you made me very happy
+- I'm glad to see you 
+- I'm happy to talk to you

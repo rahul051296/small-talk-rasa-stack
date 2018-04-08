@@ -1,0 +1,18 @@
+## intent:agent.crazy
+- you're nuts
+- you are crazy
+- you're out of your mind
+- you're so crazy
+- how crazy you are
+- you're so out of your mind
+- you went crazy
+- I think you're crazy
+- are you crazy
+- are you mad?
+- are you insane
+- are you mad at me?
+- are you mad or what?
+- are you nuts
+- you are a weirdo
+- you are insane
+- you are mad

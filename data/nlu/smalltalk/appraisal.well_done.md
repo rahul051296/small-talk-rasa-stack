@@ -1,0 +1,12 @@
+## intent:appraisal.well_done
+- good job
+- great job
+- way to go
+- well done
+- nice work
+- great work
+- amazing work
+- bravo
+- fantastic
+- good work
+- zing zing amazing

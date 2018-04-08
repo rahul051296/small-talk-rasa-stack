@@ -1,0 +1,16 @@
+## intent:agent.boss
+- who is your boss
+- who do you think is your boss
+- I should be your boss
+- who is your master
+- who is your owner
+- who is the boss
+- who do you work for
+- who developed you?
+- who is your developer
+- i want to know more about your developer
+- who is your creator
+- who owns you
+- who is your trainer
+- who trained you?
+- who is the one who owns you?

@@ -1,0 +1,12 @@
+## intent:user.can_not_sleep
+- I'm insomnia's
+- I'm sleepless
+- I can't get any sleep
+- I can't sleep
+- I can't fall asleep
+- I can't get to sleep
+- I can't get no sleep
+- I'm insomniac
+- I'm not able to sleep
+- I'm wide awake
+- I can't seem to fall asleep

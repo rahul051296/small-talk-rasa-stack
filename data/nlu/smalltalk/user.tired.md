@@ -1,0 +1,12 @@
+## intent:user.tired
+- I'm drained
+- I've overworked
+- I am tired
+- I'm exhausted
+- I grow weary
+- I'm worn out
+- I'm getting tired
+- I feel tired
+- I'm so tired
+- I'm completely drained out
+- I'm very tired 

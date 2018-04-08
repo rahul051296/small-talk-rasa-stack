@@ -1,0 +1,13 @@
+## intent:agent.annoying
+- you are annoying me so much
+- you're incredibly annoying
+- I find you annoying
+- you are annoying
+- you're so annoying
+- how annoying you are
+- you annoy me
+- you are annoying me
+- you are irritating
+- you are such annoying
+- you're too annoying
+- you are very annoying
