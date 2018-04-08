@@ -1,2 +1,4 @@
 models/
 stories.md
+.idea
+__pycache__
