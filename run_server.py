@@ -41,14 +41,13 @@ class TicketBot(HttpInputComponent):
                 query = request.args.get('q')
                 sender_id = request.args.get('id')
             out = CollectingOutputChannel()
-            intentStatus(query)
             on_new_message(UserMessage(query, out, sender_id))
             responses = [m for _, m in out.messages]
             return jsonify(responses)
 
         return app
 
-
+        
 def run(serve_forever=True):
     # path to your NLU model
     interpreter = RasaNLUInterpreter("models/nlu/default/nlu_model")

@@ -7,132 +7,6 @@ let input = document.getElementById("chat-input");
 let fab = document.getElementById('fab');
 let fab_close = document.getElementById('fab-close');
 var intentList = {};
-var topIntents;
-
-input.addEventListener("keyup", function (event) {
-    event.preventDefault();
-    if (event.keyCode === 13) {
-        document.getElementById("btn").click();
-    }
-});
-
-window.onload = function(){
-    fetch('http://localhost:5004/status',{
-        method:'GET'
-    })
-    .then(function(response){
-        status.innerHTML = "<i class='fas fa-circle'></i> Online";
-    })
-    .catch(function(response){
-        status.innerHTML = "<i class='fas fa-circle' style='color:red'></i> Offline";
-    })
-}
-
-function openchat() {
-    chatbox.style.display = "block"
-    fab.style.display = "none";
-    fab_close.style.display = "block";
-}
-
-function closechat() {
-    chatbox.style.display = "none";
-    fab_close.style.display = "none";
-    fab.style.display = "block";
-}
-
-function speak(msg) {
-    var speech = new SpeechSynthesisUtterance(msg);
-    speech.voice = speechSynthesis.getVoices()[3];
-    window.speechSynthesis.speak(speech);
-}
-
-function send() {
-    let msg = document.getElementById('chat-input').value;
-    let li = document.createElement('li');
-    li.appendChild(document.createTextNode(msg));
-    li.className = "sender"
-    ul.appendChild(li);
-    respond(msg);
-    document.getElementById('chat-input').value = "";
-    chat.scrollTop = chat.scrollHeight;
-}
-
-function respond(msg) {
-    data = {
-        query: msg,
-        id: id
-    }
-    fetch(`http://localhost:5004/respond`, {
-        method: 'POST',
-        headers: {
-            'Content-Type': 'application/json'
-        },
-        body: JSON.stringify(data)
-    })
-        .then(function (response) {
-            return response.json();
-        })
-        .then(function (data) {
-            console.log(data);
-            if (data[0]) {
-                for(let d of data){
-                    let li = document.createElement('li');
-                    li.innerHTML = d;
-                    if (voice() == true)
-                        speak(li.innerText);
-                    li.className = 'responder';
-                    ul.appendChild(li)
-                    chat.scrollTop = chat.scrollHeight;
-                }
-            }
-            else {
-                let li = document.createElement('li');
-                let t = document.createTextNode("Sorry, I'm having technical issues");
-                li.className = 'responder';
-                li.appendChild(t)
-                ul.appendChild(li)
-                chat.scrollTop = chat.scrollHeight;
-            }
-
-        })
-        .catch(function (err) {
-            let li = document.createElement('li');
-            let t = document.createTextNode("I'm having some technical issues. Try again later :)");
-            li.className = 'responder';
-            li.appendChild(t)
-            ul.appendChild(li)
-            chat.scrollTop = chat.scrollHeight;
-        });
-
-}
-
-function voice() {
-    let speaker = document.getElementById('voice').checked;
-    if (speaker == true)
-        return true;
-    else
-        return false;
-}
-
-function getIntents(msg){
-    let url = `http://localhost:2018/conversations/default/parse?q=${msg}`;
-    fetch(url, {
-        method: 'GET',
-    })
-    .then(function (response) {
-            return response.json();
-    })
-    .then(function(response){
-        intentList = response.tracker.latest_message.intent_ranking;
-        filter();
-    })
-}
-function filter(){
-    for(let intent of intentList){
-       utterIntents(intent.name);
-    }
-    console.log(valueArray)
-}
 let utter = {
     "agent.acquaintance": "I'm a virtual being, not a real person.",
     "agent.age": "I prefer not to answer with a number. I know I'm young.",
@@ -223,10 +97,160 @@ let utter = {
 }
 let keyArray = Object.keys(utter);
 let valueArray = [];
-function utterIntents(intent){
-    if(keyArray.includes(intent)){
-        valueArray.push(utter[intent])
+let valueObject = {};
+input.addEventListener("keyup", function (event) {
+    event.preventDefault();
+    if (event.keyCode === 13) {
+        document.getElementById("btn").click();
+    }
+});
+
+window.onload = function(){
+    fetch('http://localhost:5004/status',{
+        method:'GET'
+    })
+    .then(function(response){
+        status.innerHTML = "<i class='fas fa-circle'></i> Online";
+    })
+    .catch(function(response){
+        status.innerHTML = "<i class='fas fa-circle' style='color:red'></i> Offline";
+    })
+}
+
+function openchat() {
+    chatbox.style.display = "block"
+    fab.style.display = "none";
+    fab_close.style.display = "block";
+}
+
+function closechat() {
+    chatbox.style.display = "none";
+    fab_close.style.display = "none";
+    fab.style.display = "block";
+}
+
+function createSender(msg) {
+    let li = document.createElement('li');
+    li.appendChild(document.createTextNode(msg));
+    li.className = "sender"
+    ul.appendChild(li);
+    document.getElementById('chat-input').value = "";
+    chat.scrollTop = chat.scrollHeight;
+}
+
+function createResponder(msg) {
+    let li = document.createElement('li');
+    li.innerHTML = msg;
+    if (voice() == true)
+        speak(li.innerText);
+    li.className = 'responder';
+    ul.appendChild(li)
+    chat.scrollTop = chat.scrollHeight;
+}
+
+function speak(msg) {
+    var speech = new SpeechSynthesisUtterance(msg);
+    speech.voice = speechSynthesis.getVoices()[3];
+    window.speechSynthesis.speak(speech);
+}
+
+function send() {
+    let msg = document.getElementById('chat-input').value;
+    createSender(msg);
+    getIntents(msg);
+}
+
+function respond(msg) {
+    data = {
+        query: msg,
+        id: id
+    }
+    fetch(`http://localhost:5004/respond`, {
+        method: 'POST',
+        headers: {
+            'Content-Type': 'application/json'
+        },
+        body: JSON.stringify(data)
+    })
+        .then(function (response) {
+            return response.json();
+        })
+        .then(function (data) {
+            if (data[0]) {
+                for(let d of data){
+                    createResponder(d)
+                }
+            }
+            else {
+                createResponder("Sorry, I'm having technical issues");
+            }
+
+        })
+        .catch(function (err) {
+            createResponder("I'm having some technical issues. Try again later :)"); 
+        });
+
+}
+
+function voice() {
+    let speaker = document.getElementById('voice').checked;
+    if (speaker == true)
+        return true;
+    else
+        return false;
+}
+
+function getIntents(msg){
+    let url = `http://localhost:2018/conversations/default/parse?q=${msg}`;
+    fetch(url, {
+        method: 'GET',
+    })
+    .then(function (response) {
+            return response.json();
+    })
+    .then(function(response){
+        name = response.tracker.latest_message.intent.name;
+        confidence = response.tracker.latest_message.intent.confidence * 100;
+        if(confidence < 20){
+            console.log("Goes to filter " + name + " " + confidence);
+            intentList = response.tracker.latest_message.intent_ranking;
+            filter(msg);
+        }
+        else{
+            console.log("Goes to respond "+ name +" "+confidence);
+            respond(msg)
+        }
+    })
+}
+
+function filter(userMessage){
+    for(let intent of intentList){
+        utterIntents(intent.name);
+    }
+    console.log(valueArray);
+    findIntent(valueArray.shift().utter, userMessage)
+}
+
+function findIntent(utterance, userMessage){
+    createResponder(utterance); 
+    createResponder(`Did I give you the right response? <br><button class="btn btn-outline-primary btn-sm" onclick="checkCondition('yes', '${userMessage}')">Yes</button><button class="btn btn-sm btn-outline-primary" onclick="checkCondition('no', '${userMessage}')">No</button>`)     
+}
+
+function checkCondition(value, userMessage){
+    if(value == 'no'){
+        createSender("No");
+        findIntent(valueArray.shift().utter)
+    }
+    else if (value == 'yes'){
+        createSender("Yes")
+        createResponder("I'll keep that in mind.")
+        valueArray = [];
     }
 }
-getIntents("How are you?")
+
+function utterIntents(intent){
+    if(keyArray.includes(intent)){
+       valueArray.push({intent: intent, utter: utter[intent]})
+    }
+}
 
