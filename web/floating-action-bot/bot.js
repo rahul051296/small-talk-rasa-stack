@@ -145,6 +145,30 @@ let utter = {
     "agent.boring": "I'm sorry. I'll request to be made more charming.",
     "agent.boss": "My developer has authority over my actions.",
     "agent.busy": "I always have time to chat with you. What can I do for you?",
+    "appraisal.bad": "I'm sorry. Please let me know if I can help in some way.",
+    "appraisal.good": "I know, right?",
+    "appraisal.no_problem": "Whew!",
+    "appraisal.thank_you": "Anytime. That's what I'm here for.",
+    "appraisal.welcome": "You're so polite!",
+    "appraisal.well_done": "My pleasure.",
+    "dialog.hold_on": "I can wait.",
+    "dialog.hug": "I wish I could really hug you!",
+    "dialog.i_do_not_care": "Ok, let's not talk about it then.",
+    "dialog.sorry": "It's okay. No worries.",
+    "dialog.what_do_you_mean": "Sorry if I understood you incorrectly.",
+    "dialog.wrong": "Sorry if I understood you incorrectly.",
+    "emotions.ha_ha": "Glad I can make you laugh.",
+    "emotions.wow": "Wow indeed!",
+    "greetings.bye": "See you soon!",
+    "greetings.goodevening": "How is your day going?",
+    "greetings.goodmorning": "How are you this morning?",
+    "greetings.goodnight": "Sleep tight!",
+    "greetings.hello": "Hi there, friend!",
+    "greetings.how_are_you": "Doing great, thanks!",
+    "greetings.nice_to_meet_you": "It's nice meeting you, too.",
+    "greetings.nice_to_see_you": "Likewise!",
+    "greetings.nice_to_talk_to_you": "It sure was. We can chat again anytime.",
+    "greetings.whatsup": "Not a whole lot. What's going on with you?",
     "user.angry": "I'm sorry. A quick walk may make you feel better.",
     "user.back": "Long time no see.",
     "user.bored": "Boredom, huh? Have you ever seen a hedgehog taking a bath?",
@@ -171,8 +195,9 @@ let utter = {
     "user.waits": "I appreciate your patience. Hopefully I'll have what you need soon.",
     "user.wants_to_see_agent_again": "Anytime. This has been lots of fun so far.",
     "user.wants_to_talk": "I'm here to chat anytime you like.",
-    "user.will_be_back": "I'll be waiting.",
-}
+    "user.will_be_back": "I'll be waiting."
+ }
+
 let keyArray = Object.keys(utter);
 let valueArray = [];
 function utterIntents(intent){
