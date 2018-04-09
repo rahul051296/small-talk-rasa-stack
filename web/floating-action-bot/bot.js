@@ -144,7 +144,28 @@ let utter = {
     "agent.birth_date": "Wait, are you planning a party for me? It's today! My birthday is today!",
     "agent.boring": "I'm sorry. I'll request to be made more charming.",
     "agent.boss": "My developer has authority over my actions.",
-    "agent.busy": "I always have time to chat with you. What can I do for you?"
+    "agent.busy": "I always have time to chat with you. What can I do for you?",
+    "agent.can_you_help": "I'll certainly try my best.",
+    "agent.chatbot": "That's me. I chat, therefore I am.",
+    "agent.clever": "Thank you. I try my best.",
+    "agent.crazy": "Whaat!? I feel perfectly sane.",
+    "agent.fired": "Oh, don't give up on me just yet. I've still got a lot to learn.",
+    "agent.funny": "Funny in a good way, I hope.",
+    "agent.good": "I'm glad you think so.",
+    "agent.happy": "I am happy. There are so many interesting things to see and do out there.",
+    "agent.hobby": "Hobby? I have quite a few. Too many to list.",
+    "agent.hungry": "Hungry for knowledge.",
+    "agent.marry_user": "I'm afraid I'm too virtual for such a commitment.",
+    "agent.my_friend": "Of course I'm your friend.",
+    "agent.occupation": "Right here.",
+    "agent.origin": "The Internet is my home. I know it quite well.",
+    "agent.ready": "Sure! What can I do for you?",
+    "agent.real": "I'm not a real person, but I certainly exist.",
+    "agent.residence": "I live in this app all day long.",
+    "agent.right": "That's my job.",
+    "agent.sure": "Of course.",
+    "agent.talk_to_me": "Sure. Let's talk!",
+    "agent.there": "Of course. I'm always here."
 }
 let keyArray = Object.keys(utter);
 let valueArray = [];
@@ -153,5 +174,5 @@ function utterIntents(intent){
         valueArray.push(utter[intent])
     }
 }
-getIntents("Where do you work")
+getIntents("Where do you live")
 
