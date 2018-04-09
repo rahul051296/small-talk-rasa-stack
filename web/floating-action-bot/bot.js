@@ -157,6 +157,7 @@ function speak(msg) {
 function send() {
     let msg = document.getElementById('chat-input').value;
     createSender(msg);
+    valueArray = [];
     getIntents(msg);
 }
 
@@ -244,7 +245,6 @@ function checkCondition(value, userMessage){
     else if (value == 'yes'){
         createSender("Yes")
         createResponder("I'll keep that in mind.")
-        valueArray = [];
     }
 }
 
