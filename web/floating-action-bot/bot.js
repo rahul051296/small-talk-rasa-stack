@@ -229,15 +229,15 @@ function filter(userMessage){
         utterIntents(intent.name);
     }
     console.log(valueArray);
-    findIntent(valueArray.shift().utter, userMessage)
+    findIntent(valueArray.shift().utter, userMessage, valueArray.shift().intent)
 }
 
-function findIntent(utterance, userMessage){
+function findIntent(utterance, userMessage, intentName){
     createResponder(utterance); 
-    createResponder(`Did I give you the right response? <br><button class="btn btn-outline-primary btn-sm" onclick="checkCondition('yes', '${userMessage}')">Yes</button><button class="btn btn-sm btn-outline-primary" onclick="checkCondition('no', '${userMessage}')">No</button>`)     
+    createResponder(`Did I give you the right response? <br><button class="btn btn-outline-primary btn-sm" onclick="checkCondition('yes', '${userMessage}', '${intentName}')">Yes</button><button class="btn btn-sm btn-outline-primary" onclick="checkCondition('no', '${userMessage}', '${intentName}')">No</button>`)     
 }
 
-function checkCondition(value, userMessage){
+function checkCondition(value, userMessage, intentName){
     if(value == 'no'){
         createSender("No");
         findIntent(valueArray.shift().utter)
@@ -245,6 +245,7 @@ function checkCondition(value, userMessage){
     else if (value == 'yes'){
         createSender("Yes")
         createResponder("I'll keep that in mind.")
+        reinforcementTraining(userMessage, intentName)
     }
 }
 
@@ -254,3 +255,13 @@ function utterIntents(intent){
     }
 }
 
+function reinforcementTraining(userMessage, intentName){
+    console.log(userMessage+" "+intentName)
+    fetch(`http://localhost:2018/conversations/default/filter?message=${userMessage}&intent=${intentName}`,{
+        method: 'GET' 
+    })
+        .then(function (){
+            console.log("Went");
+        })
+        .catch(()=> console.log("Didn't go"))
+}
