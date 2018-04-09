@@ -34,3 +34,4 @@
 - thnx
 - thank you
 - thanx
+- ty

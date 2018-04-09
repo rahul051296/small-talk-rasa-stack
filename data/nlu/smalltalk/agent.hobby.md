@@ -13,3 +13,4 @@
 - i want to know about your hobbies
 - what do you do when you have nothing to do
 - how do you spend your time?
+- what is your hobby

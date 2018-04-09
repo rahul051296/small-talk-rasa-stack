@@ -45,6 +45,19 @@ class TicketBot(HttpInputComponent):
             responses = [m for _, m in out.messages]
             return jsonify(responses)
 
+        @app.route("/intent", methods = ['GET', 'POST'])
+        @cross_origin()
+        def addIntent():
+            if request.method == 'POST':
+                data = request.get_json()
+                message = data['message']
+                intent = data['intent']
+            elif request.method == 'GET':
+                message = request.args.get('message')
+                intent = request.args.get('intent')
+            intentStatus(message, intent)
+            return jsonify({"status": "ok"})
+
         return app
 
         

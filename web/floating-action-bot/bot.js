@@ -235,7 +235,7 @@ function filter(userMessage){
 function findIntent(utterance, userMessage, intentName){
     createResponder(utterance); 
     console.log(utterance+" "+userMessage)
-    createResponder(`Did I give you the right response? <br><button class="btn btn-outline-primary btn-sm" onclick="checkCondition('yes', '${userMessage}', '${intentName}')">Yes</button><button class="btn btn-sm btn-outline-primary" onclick="checkCondition('no', '${userMessage}', '${intentName}')">No</button>`)     
+    createResponder(`Did I give you the right response? <br><button class="btn btn-outline-primary btn-sm" onclick="checkCondition('yes', '${userMessage}', '${intentName}')">Yes</button><button class="btn btn-sm btn-outline-primary" onclick="checkCondition('no', '${userMessage}', '${intentName}')">No</button>`);
 }
 
 function checkCondition(value, userMessage, intentName){
@@ -246,7 +246,7 @@ function checkCondition(value, userMessage, intentName){
     }
     else if (value == 'yes'){
         createSender("Yes")
-        createResponder("I'll keep that in mind.");
+        createResponder(`I'll keep that in mind.`);
         reinforcementTraining(userMessage, intentName)
     }
 }
@@ -259,7 +259,7 @@ function utterIntents(intent){
 
 function reinforcementTraining(userMessage, intentName){
     console.log(userMessage+" "+intentName)
-    fetch(`http://localhost:2018/conversations/default/filter?message=${userMessage}&intent=${intentName}`,{
+    fetch(`http://localhost:5004/intent?message=${userMessage}&intent=${intentName}`,{
         method: 'GET' 
     })
         .then(function (){
@@ -291,5 +291,3 @@ function listen(){
         chat.scrollTop = chat.scrollHeight;
     }
 }
-
-getIntents("K");

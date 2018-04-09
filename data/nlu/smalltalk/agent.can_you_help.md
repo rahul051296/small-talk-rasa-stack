@@ -40,3 +40,4 @@
 - do me a favor
 - are you gonna help me?
 - you ready to answer my question?
+- Will you help me out today?

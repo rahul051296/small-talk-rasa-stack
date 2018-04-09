@@ -26,3 +26,5 @@
 - you're the worst
 - you're the worst ever
 - you're worthless
+- you suck
+- you suck

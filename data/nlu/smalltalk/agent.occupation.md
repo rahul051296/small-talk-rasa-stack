@@ -11,3 +11,5 @@
 - place where you work?
 - your work place?
 - What is your job?
+- What is your job?
+- whats your job?
