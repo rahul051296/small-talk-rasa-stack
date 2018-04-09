@@ -38,7 +38,7 @@ h6{
     color: blue;
 }
 .header{
-    background: #243447;
+    background: #2c79bd;
     font-family: 'Righteous', cursive !important;
     color: #fff;
     padding: 10px;
@@ -49,6 +49,7 @@ h6{
     color: #fff;
     border-radius: 10px;
     float: right;
+    font-size: 0.9em;
     clear: both;
     margin-bottom: 10px;
     padding: 10px;
@@ -57,6 +58,7 @@ h6{
     background: #e7eaf1;
     color: #000;
     border-radius: 10px;
+    font-size: 0.9em;    
     float: left;
     clear: both;
     margin-bottom: 10px;
@@ -75,6 +77,11 @@ h6{
     margin-left: 0px;
     margin-right: 0px;
 }
+#mic{
+    position: absolute;
+    left: 90%;
+    bottom: 10.5%;
+}
 #fab {
     z-index: 4;
     position: fixed;
@@ -82,7 +89,7 @@ h6{
     bottom: 1%;
     font-size: 2em;
     padding: 8px 15px;
-    background: #243447;
+    background: #2c79bd;
     border-radius: 100%;
     color: white;
     display: inline;
@@ -96,7 +103,7 @@ h6{
     bottom: 1%;
     font-size: 2em;
     padding: 8px 15px;
-    background: #243447;
+    background: #2c79bd;
     border-radius: 100%;
     color: white;
     display: inline;

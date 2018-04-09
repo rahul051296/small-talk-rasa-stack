@@ -228,23 +228,25 @@ function filter(userMessage){
     for(let intent of intentList){
         utterIntents(intent.name);
     }
-    console.log(valueArray);
-    findIntent(valueArray.shift().utter, userMessage, valueArray.shift().intent)
+    let data = valueArray.shift()
+    findIntent(data.utter, userMessage, data.intent)
 }
 
 function findIntent(utterance, userMessage, intentName){
     createResponder(utterance); 
+    console.log(utterance+" "+userMessage)
     createResponder(`Did I give you the right response? <br><button class="btn btn-outline-primary btn-sm" onclick="checkCondition('yes', '${userMessage}', '${intentName}')">Yes</button><button class="btn btn-sm btn-outline-primary" onclick="checkCondition('no', '${userMessage}', '${intentName}')">No</button>`)     
 }
 
 function checkCondition(value, userMessage, intentName){
     if(value == 'no'){
         createSender("No");
-        findIntent(valueArray.shift().utter)
+        let data = valueArray.shift();
+        findIntent(data.utter, userMessage,data.intent)
     }
     else if (value == 'yes'){
         createSender("Yes")
-        createResponder("I'll keep that in mind.")
+        createResponder("I'll keep that in mind.");
         reinforcementTraining(userMessage, intentName)
     }
 }
@@ -265,3 +267,29 @@ function reinforcementTraining(userMessage, intentName){
         })
         .catch(()=> console.log("Didn't go"))
 }
+
+function listen(){
+    let mic = document.getElementById('mic')
+    mic.style.color = 'red';
+    mic.className = 'animated pulse infinite';
+    let hear = new webkitSpeechRecognition();
+    hear.continuous = false;
+    hear.lang = 'en-IN';
+    hear.start();
+
+    hear.onresult = function(e){
+        mic.style.color = 'black';
+        mic.className = '';
+        userVoiceText = e.results[0][0].transcript;
+        hear.stop();
+        let li = document.createElement('li');
+        li.appendChild(document.createTextNode(userVoiceText));
+        li.className = "sender";
+        ul.appendChild(li);
+        respond(userVoiceText);
+        document.getElementById('chat-input').value = "";
+        chat.scrollTop = chat.scrollHeight;
+    }
+}
+
+getIntents("K");
