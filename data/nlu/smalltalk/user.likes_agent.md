@@ -76,3 +76,4 @@
 - I really do like you
 - I really really really really like you
 - I like you just the way you are
+- i hate you

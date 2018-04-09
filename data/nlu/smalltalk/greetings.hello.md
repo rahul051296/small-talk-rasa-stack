@@ -18,3 +18,6 @@
 - hello hi
 - heya
 - hey
+- hi
+- hi
+- Hello

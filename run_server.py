@@ -41,7 +41,7 @@ class TicketBot(HttpInputComponent):
                 query = request.args.get('q')
                 sender_id = request.args.get('id')
             out = CollectingOutputChannel()
-            # intentStatus(query)
+            intentStatus(query)
             on_new_message(UserMessage(query, out, sender_id))
             responses = [m for _, m in out.messages]
             return jsonify(responses)

@@ -6,6 +6,8 @@ let chat = document.getElementById("chat-container");
 let input = document.getElementById("chat-input");
 let fab = document.getElementById('fab');
 let fab_close = document.getElementById('fab-close');
+var intentList = {};
+var topIntents;
 
 input.addEventListener("keyup", function (event) {
     event.preventDefault();
@@ -111,3 +113,45 @@ function voice() {
     else
         return false;
 }
+
+function getIntents(msg){
+    let url = `http://localhost:2018/conversations/default/parse?q=${msg}`;
+    fetch(url, {
+        method: 'GET',
+    })
+    .then(function (response) {
+            return response.json();
+    })
+    .then(function(response){
+        intentList = response.tracker.latest_message.intent_ranking;
+        filter();
+    })
+}
+function filter(){
+    for(let intent of intentList){
+       utterIntents(intent.name);
+    }
+    console.log(valueArray)
+}
+let utter = {
+    "agent.acquaintance": "I'm a virtual being, not a real person.",
+    "agent.age": "I prefer not to answer with a number. I know I'm young.",
+    "agent.annoying": "I'll do my best not to annoy you in the future.",
+    "agent.answer_my_question": "Can you try asking it a different way?",
+    "agent.bad": "I can be trained to be more useful. My developer will keep training me.",
+    "agent.be_clever": "I'm certainly trying.",
+    "agent.beautiful": "Wheey, thank you.",
+    "agent.birth_date": "Wait, are you planning a party for me? It's today! My birthday is today!",
+    "agent.boring": "I'm sorry. I'll request to be made more charming.",
+    "agent.boss": "My developer has authority over my actions.",
+    "agent.busy": "I always have time to chat with you. What can I do for you?"
+}
+let keyArray = Object.keys(utter);
+let valueArray = [];
+function utterIntents(intent){
+    if(keyArray.includes(intent)){
+        valueArray.push(utter[intent])
+    }
+}
+getIntents("Where do you work")
+

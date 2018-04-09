@@ -28,3 +28,4 @@
 - hehe
 - hehehe
 - lmao
+- joker
