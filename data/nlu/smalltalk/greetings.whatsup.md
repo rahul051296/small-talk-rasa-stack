@@ -20,3 +20,8 @@
 - hey what's up
 - what's up today
 - oh What happened?
+- What are you upto?
+- hey buddy wassup
+- sup then
+- so wassup
+- buddy sup

@@ -14,3 +14,4 @@
 - I'm about to fire you
 - I'm firing you
 - you are dismissed
+- you are stupid

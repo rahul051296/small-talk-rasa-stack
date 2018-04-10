@@ -106,7 +106,7 @@ input.addEventListener("keyup", function (event) {
 });
 
 window.onload = function(){
-    fetch('http://localhost:5004/status',{
+    fetch('http://10.149.93.224:5004/status',{
         method:'GET'
     })
     .then(function(response){
@@ -166,7 +166,7 @@ function respond(msg) {
         query: msg,
         id: id
     }
-    fetch(`http://localhost:5004/respond`, {
+    fetch(`http://10.149.93.224:5004/respond`, {
         method: 'POST',
         headers: {
             'Content-Type': 'application/json'
@@ -202,7 +202,7 @@ function voice() {
 }
 
 function getIntents(msg){
-    let url = `http://localhost:2018/conversations/default/parse?q=${msg}`;
+    let url = `http://10.149.93.224:2018/conversations/default/parse?q=${msg}`;
     fetch(url, {
         method: 'GET',
     })
@@ -235,7 +235,11 @@ function filter(userMessage){
 function findIntent(utterance, userMessage, intentName){
     createResponder(utterance); 
     console.log(utterance+" "+userMessage)
-    createResponder(`Did I give you the right response? <br><button class="btn btn-outline-primary btn-sm" onclick="checkCondition('yes', '${userMessage}', '${intentName}')">Yes</button><button class="btn btn-sm btn-outline-primary" onclick="checkCondition('no', '${userMessage}', '${intentName}')">No</button>`);
+    userMessage = userMessage.replace("\'", "\\'");
+    console.log(userMessage.toString())
+    let a = 'I\'m a boy'
+    console.log(a) 
+    createResponder(`Did I give you the right response? <br><button style="margin-right:5px;" class="btn btn-outline-primary btn-sm" onclick="checkCondition('yes', '${userMessage }', '${intentName}')">Yes</button><button class="btn btn-sm btn-outline-primary" onclick='checkCondition('no', '${userMessage}', '${intentName}')">No</button>`);
 }
 
 function checkCondition(value, userMessage, intentName){
@@ -259,13 +263,13 @@ function utterIntents(intent){
 
 function reinforcementTraining(userMessage, intentName){
     console.log(userMessage+" "+intentName)
-    fetch(`http://localhost:5004/intent?message=${userMessage}&intent=${intentName}`,{
+    fetch(`http://10.149.93.224:5004/intent?message=${userMessage}&intent=${intentName}`,{
         method: 'GET' 
     })
         .then(function (){
-            console.log("Went");
+            console.log(userMessage+" was added to "+intentName);
         })
-        .catch(()=> console.log("Didn't go"))
+        .catch(()=> console.log("It didn't go"))
 }
 
 function listen(){

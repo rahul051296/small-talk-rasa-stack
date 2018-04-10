@@ -22,3 +22,5 @@
 - where you live
 - your city
 - your town
+- What is your hometown?
+- where do you live?

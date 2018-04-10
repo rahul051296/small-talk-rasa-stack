@@ -10,3 +10,5 @@
 - it bores me
 - i had a slow day
 - i am very bored
+- Im kinda bored today 
+- Im kinda bored today man

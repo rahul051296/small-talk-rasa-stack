@@ -40,3 +40,4 @@
 - how are you doing this morning
 - how is your day going
 - how are you?
+- so then

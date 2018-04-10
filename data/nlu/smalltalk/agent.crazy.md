@@ -16,3 +16,4 @@
 - you are a weirdo
 - you are insane
 - you are mad
+- how are you idiot 

@@ -18,3 +18,4 @@
 - talk with me
 - why don't you talk to me
 - you can talk to me
+- why do you not talk to me bruh?

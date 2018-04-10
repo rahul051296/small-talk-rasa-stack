@@ -14,3 +14,5 @@
 - what do you do when you have nothing to do
 - how do you spend your time?
 - what is your hobby
+- What do you do when you are free
+- What do you do when you are free?

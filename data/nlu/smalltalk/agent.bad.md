@@ -28,3 +28,4 @@
 - you're worthless
 - you suck
 - you suck
+- You are seriously mindless and stupid
