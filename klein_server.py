@@ -6,6 +6,7 @@ from pprint import pprint
 import yaml
 from flask import jsonify, json
 from klein import Klein
+
 logger = logging.getLogger(__name__)
 
 
@@ -20,17 +21,43 @@ def readYAML():
     return templates
 
 
-def readParse(query):
+def intentList(data):
     intent_array = []
-    r = requests.get('http://localhost:2018/conversations/default/parse?q={}'.format(query))
-    data = r.json().get('tracker').get('latest_message').get('intent_ranking')
     intents = []
     for d in data:
         intents.append(d.get('name'))
     for intent in intents:
-        if "utter_"+intent in templates.keys():
-            intent_array.append({"name": intent, "utter": templates.get("utter_"+intent)[0]})
+        if "utter_" + intent in templates.keys():
+            intent_array.append({"name": intent, "utter": templates.get("utter_" + intent)[0]})
     return intent_array
+
+
+def customFilter(query, sender_id):
+    global checkIntent, confidenceScore
+    r = requests.get('http://localhost:2018/conversations/{}/parse?q={}'.format(sender_id, query))
+    intentName = r.json().get('tracker').get('latest_message').get('intent').get('name')
+    confidence = r.json().get('tracker').get('latest_message').get('intent').get('confidence') * 100
+
+    if confidence < 20 or (intentName == "confirmation.no" and checkIntent == 1):
+        if checkIntent != 1:
+            data = r.json().get('tracker').get('latest_message').get('intent_ranking')
+            confidenceScore = intentList(data)
+            confidenceScore = confidenceScore[::-1]
+        checkIntent = 1
+        return confidenceScore.pop()
+    elif confidence < 20 or (intentName == "confirmation.yes" and checkIntent == 1):
+        confidenceScore = []
+        checkIntent = 0
+
+    else:
+        checkIntent = 0
+        return botResponse(query, sender_id)
+
+
+def botResponse(query, sender_id):
+    r = requests.get("http://localhost:2018/conversations/{}/respond?q={}".format(sender_id, query))
+    response = r.json()
+    return response
 
 
 def request_parameters(request):
@@ -51,7 +78,6 @@ def request_parameters(request):
 
 
 class FilterServer:
-
     app = Klein()
 
     @app.route("/api/v1/status", methods=['GET'])
@@ -72,7 +98,7 @@ class FilterServer:
             request.setResponseCode(400)
             return json.dumps({"error": "Invalid parse parameter specified"})
         try:
-            response = readParse(message)
+            response = intentList(message)
             request.setResponseCode(200)
             return json.dumps(response)
         except Exception as e:
@@ -81,7 +107,7 @@ class FilterServer:
                          "parse: {}".format(e), exc_info=1)
             return json.dumps({"error": "{}".format(e)})
 
-    @app.route('/api/v1/<sender_id>/respond', methods=['GET','POST'])
+    @app.route('/api/v1/<sender_id>/respond', methods=['GET', 'POST'])
     def respond(self, request, sender_id):
         request.setHeader('Content-Type', 'application/json')
         request_params = request_parameters(request)
@@ -94,13 +120,17 @@ class FilterServer:
             request.setResponseCode(400)
             return json.dumps({"error": "Invalid parse parameter specified"})
         try:
-            pass
-        except:
-            pass
+            response = customFilter(message, sender_id)
+            request.setResponseCode(200)
+            return json.dumps(response)
+        except Exception as e:
+            request.setResponseCode(500)
+            logger.error("Caught an exception during "
+                         "parse: {}".format(e), exc_info=1)
+            return json.dumps({"error": "{}".format(e)})
 
 
 if __name__ == "__main__":
     readYAML()
-    filterServer = FilterServer()
-    filterServer.app.run("0.0.0.0", 8081)
-
+    filterObject = FilterServer()
+    filterObject.app.run("0.0.0.0", 8081)
