@@ -10,3 +10,5 @@
 - don't blabber
 - you're blabbering
 - don't babble 
+- why do you bore me
+- Okay don't bore me

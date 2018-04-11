@@ -13,3 +13,4 @@
 - I would love to marry you
 - Can you marry me?
 - Will you be my girlfriend?
+- whether u r married

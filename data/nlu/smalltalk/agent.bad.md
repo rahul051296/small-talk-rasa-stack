@@ -29,3 +29,6 @@
 - you suck
 - you suck
 - You are seriously mindless and stupid
+- why are you so lame
+- your are a loser
+- you are really the worst bot ever

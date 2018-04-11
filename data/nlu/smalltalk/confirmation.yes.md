@@ -16,6 +16,6 @@
 - yea fine
 - yep okay
 - fine okay
-- hey wassup
-- hey wassup
-- oh
+- yup
+- YEAH
+- okay buddy
