@@ -2,13 +2,14 @@ import logging
 
 import requests
 from pprint import pprint
-
+from filter import intentStatus
 import yaml
 from flask import jsonify, json
 from klein import Klein
 
 logger = logging.getLogger(__name__)
 
+checkFirstRequest = 0
 
 def readYAML():
     global templates
@@ -33,22 +34,28 @@ def intentList(data):
 
 
 def customFilter(query, sender_id):
-    global checkIntent, confidenceScore
+    global checkIntent, confidenceScore, next_response, checkFirstRequest, queryToAdd
+    if checkFirstRequest == 0:
+        checkIntent = 0
+    checkFirstRequest = checkFirstRequest + 1
     r = requests.get('http://localhost:2018/conversations/{}/parse?q={}'.format(sender_id, query))
     intentName = r.json().get('tracker').get('latest_message').get('intent').get('name')
     confidence = r.json().get('tracker').get('latest_message').get('intent').get('confidence') * 100
-
     if confidence < 20 or (intentName == "confirmation.no" and checkIntent == 1):
         if checkIntent != 1:
             data = r.json().get('tracker').get('latest_message').get('intent_ranking')
             confidenceScore = intentList(data)
             confidenceScore = confidenceScore[::-1]
+            queryToAdd = query
         checkIntent = 1
-        return confidenceScore.pop()
+        next_response = confidenceScore.pop()
+        return next_response
     elif confidence < 20 or (intentName == "confirmation.yes" and checkIntent == 1):
+        intentStatus(queryToAdd, next_response.get('name'))
         confidenceScore = []
         checkIntent = 0
-
+        msg = "I will keep that in mind"
+        return msg
     else:
         checkIntent = 0
         return botResponse(query, sender_id)
