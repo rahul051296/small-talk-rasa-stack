@@ -24,3 +24,6 @@
 - hey
 - hey man
 - hey there
+- hey buddy
+- oka
+- yo man

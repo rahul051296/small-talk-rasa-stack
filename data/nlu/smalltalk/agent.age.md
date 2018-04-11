@@ -12,3 +12,5 @@
 - how can i know about your age
 - i wanna know your age
 - how long have you been alive?
+
+- what is your age as of today?

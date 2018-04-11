@@ -14,7 +14,7 @@ from rasa_core.interpreter import RasaNLUInterpreter
 logger = logging.getLogger(__name__)
 
 
-def train_core(input_channel, interpreter, domain_file="domain.yml", training_data_file='./data/stories.md'):
+def train_core(input_channel, interpreter, domain_file="domain.yml", training_data_file='./data/dialogue/stories.md'):
     agent = Agent(domain_file, policies=[MemoizationPolicy(), KerasPolicy()], interpreter=interpreter)
 
     agent.train_online(training_data_file,

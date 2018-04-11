@@ -51,6 +51,6 @@
 - it is too bad
 - bad really bad
 - not okay
-- Oh
 - Nothing
 - Shut up
+- nothing.

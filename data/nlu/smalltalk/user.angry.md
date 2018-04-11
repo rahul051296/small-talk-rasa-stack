@@ -10,3 +10,4 @@
 - you have pissed me off
 - I'm mad at you
 - I am pissed
+- I'm furious with you

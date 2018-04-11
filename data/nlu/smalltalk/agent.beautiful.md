@@ -54,3 +54,4 @@
 - you are cutie
 - you're looking good
 - you're pretty
+- how are you so pretty?

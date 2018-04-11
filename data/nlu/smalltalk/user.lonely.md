@@ -10,3 +10,4 @@
 - I don't have anyone else
 - I'm always alone
 - I'm alone
+- am not

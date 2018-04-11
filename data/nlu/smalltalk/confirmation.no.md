@@ -26,3 +26,5 @@
 - i am not okay with your help
 - don't want
 - do not
+- I don't need anything from you
+- okay keep it in mind

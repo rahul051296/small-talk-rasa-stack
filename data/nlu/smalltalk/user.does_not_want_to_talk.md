@@ -10,3 +10,4 @@
 - I don't like talking to you
 - Let's stop talking
 - I'm not in a mood to talk
+- stop your nuisance talk

@@ -8,4 +8,3 @@ def addData(nlu_dir, value):
 
 def intentStatus(message, intent):
     addData(("./data/nlu/smalltalk/"+intent+".md"), message)
-

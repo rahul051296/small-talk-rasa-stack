@@ -26,3 +26,4 @@
 - so wassup
 - buddy sup
 - What are you doing
+- what is up with you these days?
