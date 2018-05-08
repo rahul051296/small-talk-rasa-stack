@@ -18,31 +18,31 @@ python rasa_dialogue_model.py
 
 # Usages
 
-### Run the Bot in CMD:
+### **Run the Bot in CMD:**
 
 ```
 python bot.py
 ```
 
-### Run the Bot as web server:
+### **Run the Bot as web server:**
 
 ```
 python server.py
 ```
  
-***Server Status***
+**Server Status**
 
 ```
 http://localhost:8081/api/v1/status
  ``` 
 
- ***Agent Response***
+ **Agent Response**
 
  ```
 http://localhost:8081/api/v1/default/respond?q=hi
  ```
 
- ***Parsed Data***
+ **Parsed Data**
 
  ```
 http://localhost:8081/api/v1/default/parse?q=hi
