@@ -11,3 +11,12 @@
 - I don't have time for this
 - I'm super busy
 - I'm working right now
+- I'm busy right now and can't play with you
+- I have rather a busy afternoon in front of me
+- i am too busy
+- I am very busy
+- I'm a bit busy
+- I'm a busy man
+- quite busy
+- I'm kind of busy
+- I'll see you later

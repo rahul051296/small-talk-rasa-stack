@@ -10,3 +10,7 @@
 - you know I love you
 - do you love me ?
 - Love you so much
+- my heart is filled with you
+- I love u to the moon and back
+- I am in deep love with you
+- you r unique

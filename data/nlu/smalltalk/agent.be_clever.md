@@ -12,3 +12,10 @@
 - you should be trained more
 - be more smart
 - you need to learn more
+- be useful
+- think out of the box
+- smarty pants
+- you need to improve
+- you should learn 
+- you have to be more smart
+- u have to use your brains 

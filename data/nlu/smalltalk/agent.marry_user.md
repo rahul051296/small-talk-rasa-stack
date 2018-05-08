@@ -13,4 +13,9 @@
 - I would love to marry you
 - Can you marry me?
 - Will you be my girlfriend?
-- whether u r married
+- Let's pretend we have a happy marriage
+- My parents were against our marriage
+- My parents were opposed to our marriage
+- Marriage is the union of a you and me
+- Did your parents approve of your marriage?
+- We're married

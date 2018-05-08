@@ -13,4 +13,9 @@
 - you're the funniest
 - you are so funny
 - you are very funny
-- that was funny
+- that was so funny
+- i feel funny
+- u sound funny
+- It's pretty funny
+- really very funny
+- it was very funny

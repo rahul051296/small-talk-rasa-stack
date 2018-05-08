@@ -4,7 +4,6 @@
 - what is up
 - what's up
 - whazzup
-- sup
 - sup?
 - good what's up
 - I said what's up
@@ -12,7 +11,6 @@
 - what's shaking
 - wassup
 - what are you doing?
-- what are you doing
 - what is going on
 - what is happening
 - what's cracking
@@ -25,5 +23,10 @@
 - sup then
 - so wassup
 - buddy sup
-- What are you doing
+- What are you doing?
 - what is up with you these days?
+- What you upto?
+- then?
+- wassup yo
+- sup yo
+- wassap yo

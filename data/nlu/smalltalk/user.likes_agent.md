@@ -71,9 +71,7 @@
 - you are so special to me
 - cuz I like you
 - I like you now
-- I like you so
 - I like you too much
 - I really do like you
 - I really really really really like you
 - I like you just the way you are
-- i hate you

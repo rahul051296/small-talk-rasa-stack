@@ -1,5 +1,5 @@
 ## intent:user.back
-- boss in back
+- boss is back
 - I am back
 - I'm here again
 - here I am again
@@ -10,3 +10,7 @@
 - I'm rb
 - I'm here
 - I'm back again
+- am back
+- I'm back
+- I am right back
+- look who is back

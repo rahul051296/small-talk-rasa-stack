@@ -53,4 +53,5 @@
 - not okay
 - Nothing
 - Shut up
-- nothing.
+- nothing
+- Fool

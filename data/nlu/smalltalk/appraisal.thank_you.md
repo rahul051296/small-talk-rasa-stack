@@ -33,5 +33,5 @@
 - well thanks
 - thnx
 - thank you
-- thanx
+- tqsm
 - ty

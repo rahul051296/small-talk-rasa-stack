@@ -12,10 +12,10 @@
 - you know a lot of things
 - you have a lot of knowledge
 - you know so much
-- how smart you are
-- how brainy you are
+- how smart you are?
+- how brainy you are?
 - how clever you are
-- how brilliant you are
+- how brilliant you are?
 - you are intelligent
 - you are qualified
 - you are really smart
@@ -31,5 +31,5 @@
 - you're clever
 - you're pretty smart
 - you're qualified
-- why are you so smart
+- why are you so smart?
 - you are so clever

@@ -7,6 +7,8 @@ let input = document.getElementById("chat-input");
 let fab = document.getElementById('fab');
 let fab_close = document.getElementById('fab-close');
 
+const url = 'http://localhost:8081/api/v1';
+
 input.addEventListener("keyup", function (event) {
     event.preventDefault();
     if (event.keyCode === 13) {
@@ -15,7 +17,7 @@ input.addEventListener("keyup", function (event) {
 });
 
 window.onload = function () {
-    fetch('http://10.149.93.224:8081/api/v1/status', {
+    fetch(`${url}/status`, {
         method: 'GET'
     })
         .then(function (response) {
@@ -39,12 +41,9 @@ function closechat() {
 }
 
 function start(msg) {
-    let li = document.createElement('li');
-    li.appendChild(document.createTextNode(msg));
-    li.className = "sender"
-    ul.appendChild(li);
-    respond(msg)
-    chat.scrollTop = chat.scrollHeight;
+    createSender(msg);
+    document.getElementById('typing').style.display = "inline";
+    respond(msg);
 }
 
 function speak(msg) {
@@ -53,62 +52,61 @@ function speak(msg) {
     window.speechSynthesis.speak(speech);
 }
 
-function send() {
-    let msg = document.getElementById('chat-input').value;
-    if (msg != '') {
+function createSender(msg) {
         let li = document.createElement('li');
         li.appendChild(document.createTextNode(msg));
         li.className = "sender"
         ul.appendChild(li);
-        respond(msg);
         document.getElementById('chat-input').value = "";
         chat.scrollTop = chat.scrollHeight;
+}
+
+function createResponder(msg) {
+    let li = document.createElement('li');
+    li.innerHTML = msg;
+    if (voice() == true)
+        speak(li.innerText);
+    li.className = 'responder';
+    ul.appendChild(li)
+    chat.scrollTop = chat.scrollHeight;
+}
+
+function send() {
+    let message = document.getElementById('chat-input').value;
+    if (message != '') {
+        createSender(message);
+        document.getElementById('typing').style.display = "inline";
+        respond(message);
     }
 }
 
 function respond(msg) {
     data = {
         query: msg
-    };
-    fetch(`http://10.149.93.224:8081/api/v1/${id}/respond`, {
+    }
+    fetch(`${url}/${id}/respond`, {
         method: 'POST',
         body: JSON.stringify(data)
     })
         .then(function (response) {
+            document.getElementById('typing').style.display = "none";
             return response.json();
         })
-        .then(function (data) {
-            console.log(data);
-            if (data[0]) {
-                for (let d of data) {
-                    let li = document.createElement('li');
-                    li.innerHTML = d;
-                    if (voice() == true)
-                        speak(li.innerText);
-                    li.className = 'responder';
-                    ul.appendChild(li)
-                    chat.scrollTop = chat.scrollHeight;
-                }
+        .then(function (responses) {
+            console.log(responses);
+            if (responses) {
+                for (let response of responses) {
+                    createResponder(response.text);
             }
-            else {
-                let li = document.createElement('li');
-                let t = document.createTextNode("Sorry, I'm having trouble understanding you, try asking me in an other way");
-                li.className = 'responder';
-                li.appendChild(t)
-                ul.appendChild(li)
-                chat.scrollTop = chat.scrollHeight;
+            } else {
+                createResponder("Sorry, I'm having trouble understanding you, try asking me in an other way")
             }
 
         })
         .catch(function (err) {
-            let li = document.createElement('li');
-            let t = document.createTextNode("I'm having some technical issues. Try again later :)");
-            li.className = 'responder';
-            li.appendChild(t);
-            ul.appendChild(li);
-            chat.scrollTop = chat.scrollHeight;
+            document.getElementById('typing').style.display = "none";
+            createResponder("I'm having some technical issues. Try again later :)");
         });
-
 }
 
 function voice() {
@@ -120,7 +118,7 @@ function voice() {
 }
 
 function listen() {
-    let mic = document.getElementById('mic')
+    let mic = document.getElementById('mic');
     mic.style.color = 'red';
     mic.className = 'animated pulse infinite';
     let hear = new webkitSpeechRecognition();
@@ -133,12 +131,7 @@ function listen() {
         mic.className = '';
         userVoiceText = e.results[0][0].transcript;
         hear.stop();
-        let li = document.createElement('li');
-        li.appendChild(document.createTextNode(userVoiceText));
-        li.className = "sender";
-        ul.appendChild(li);
+        createSender(userVoiceText);
         respond(userVoiceText);
-        document.getElementById('chat-input').value = "";
-        chat.scrollTop = chat.scrollHeight;
     }
 }

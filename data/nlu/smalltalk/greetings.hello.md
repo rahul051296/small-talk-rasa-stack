@@ -27,3 +27,4 @@
 - hey buddy
 - oka
 - yo man
+- hola

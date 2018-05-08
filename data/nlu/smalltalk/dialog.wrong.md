@@ -11,3 +11,8 @@
 - not correct
 - you are wrong
 - not right
+- don't think that you know everything
+- u don't know anything
+- you misinterpret
+- you misunderstood
+- u took it in a wrong way

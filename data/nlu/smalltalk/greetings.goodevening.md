@@ -8,5 +8,5 @@
 - have an awesome evening
 - happy evening 
 - good evening there buddy
-- have a good eveening
+- have a good evening
 - enjoy the evening

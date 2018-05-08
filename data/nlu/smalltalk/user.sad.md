@@ -10,3 +10,12 @@
 - I want to cry
 - I'm not happy
 - feeling sad
+- I felt sad for no reason
+- Now I'm sad
+- It makes me sad
+- I am sad to hear it
+- I am a very sad person
+- I feel sad every now and then
+- I am as sad and lonely as can be
+- feeling so down
+- i am not in a good mood

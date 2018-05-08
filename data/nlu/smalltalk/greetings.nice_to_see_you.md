@@ -13,6 +13,9 @@
 - great to see you too
 - I am glad to see you again
 - nice to see you again
-- glad to see you too
 - good to see you again
 - it's good to see you too
+- It was great catching up with u
+- I'm really pleased to see u again
+- I’m delighted to see you again
+- Great seeing u

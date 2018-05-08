@@ -9,11 +9,13 @@
 - I think you're crazy
 - are you crazy
 - are you mad?
-- are you insane
 - are you mad at me?
 - are you mad or what?
 - are you nuts
 - you are a weirdo
-- you are insane
 - you are mad
-- how are you idiot 
+- You must be crazy
+- You've got to be crazy to do something like that
+- That was crazy
+- You seemed crazy
+- You're not crazy

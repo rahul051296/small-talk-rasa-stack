@@ -11,3 +11,5 @@
 - Let's stop talking
 - I'm not in a mood to talk
 - stop your nuisance talk
+- I am done talking to u
+- Can u pls stop talking

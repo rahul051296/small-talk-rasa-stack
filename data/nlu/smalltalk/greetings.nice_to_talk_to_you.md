@@ -10,3 +10,7 @@
 - nice to talk to you again 
 - It was nice speaking with you
 - It was great to talk to you
+- nice chatting with you
+- pleased to talk to you
+- pleasure to talk
+- It's been a pleasure talking to u

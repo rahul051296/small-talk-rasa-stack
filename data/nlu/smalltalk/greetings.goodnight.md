@@ -1,4 +1,5 @@
 ## intent:greetings.goodnight
+- GN
 - sweet dreams
 - good night
 - have a good night

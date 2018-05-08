@@ -10,3 +10,6 @@
 - wait one sec
 - hold on for a sec
 - hold on man
+- wait a sec
+- hold on a min
+- will u pls wait for a sec

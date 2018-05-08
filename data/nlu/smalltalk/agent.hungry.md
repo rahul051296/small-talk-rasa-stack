@@ -12,3 +12,4 @@
 - can you be hungry?
 - how do you eat?
 - Do you feel hungry?
+- are you dying of hunger

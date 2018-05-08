@@ -10,3 +10,11 @@
 - I'm in a good mood
 - I'm doing really good
 - good
+- It's good
+- I feel good
+- That's good
+- That feels good
+- I feel very good
+- i am pretty good
+- I feel good today
+- I am really good

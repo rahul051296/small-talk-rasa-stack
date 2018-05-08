@@ -36,7 +36,6 @@
 - you are very useful
 - you are wonderful
 - you made my day
-- you make my day
 - you rock
 - you almost sound human
 - I want to tell everyone how awesome you are

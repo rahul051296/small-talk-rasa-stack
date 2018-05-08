@@ -11,3 +11,11 @@
 - I'm mad at you
 - I am pissed
 - I'm furious with you
+- I got angry
+- I was angry
+- I became angry
+- I was very angry
+- You bet I'm angry
+- That made me angry
+- U made me angry
+- I'm still angry about that

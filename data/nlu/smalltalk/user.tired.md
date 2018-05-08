@@ -10,3 +10,12 @@
 - I'm so tired
 - I'm completely drained out
 - I'm very tired 
+- i was tired
+- i feel tired
+- i'm dead tired
+- I'm a bit tires
+- I was very tired
+- I am really tired
+- i am awfully tired
+- i am kind of so tired
+- I am little tired

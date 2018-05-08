@@ -10,3 +10,12 @@
 - pleasure to meet you
 - pleasure to meet you too
 - happy to meet you
+- It’s a pleasure to meet you again
+- It’s very nice to meet you
+- Lovely to meet you
+- How wonderful to meet you
+- It was lovely meeting you
+- It’s been a pleasure meeting you
+- I’ve enjoyed meeting you
+- Great interacting with you
+- I had a great time or meeting

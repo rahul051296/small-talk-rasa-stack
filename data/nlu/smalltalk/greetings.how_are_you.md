@@ -2,21 +2,20 @@
 - how is your morning so far
 - how are you getting on
 - how's your day going
-- how are you
+- how are you?
 - is everything all right
-- how are you doing
+- how are you doing?
 - how are the things going
 - are you alright
-- are you okay
+- are you okay?
 - how are you feeling
-- how are you going
+- how are you going?
 - is everything okay
-- how are you today
-- how do you do
-- how do you feel
-- how have you been
-- how is it
-- how is it going
+- how are you today?
+- how do you do?
+- how do you feel?
+- how have you been?
+- how is it going?
 - how is your day
 - how is your day going
 - how is your evening
@@ -24,13 +23,13 @@
 - are you having a good day
 - hope your day is going well
 - hope you re having a pleasant evening
-- how's life
+- how's life?
 - I'm fine and you
 - how is your life
 - how has your day been
 - how is your morning going
 - how has your day been going
-- how about you
+- how about you?
 - how is your day being
 - how is your day going on
 - how your day is going
@@ -38,7 +37,6 @@
 - what about your day
 - how's your day
 - how are you doing this morning
-- how is your day going
-- how are you?
-- so then
-- how are you/
+- how do you do?
+- how are you
+- how are you

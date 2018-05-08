@@ -1,5 +1,5 @@
 models/
-stories.md
+./stories.md
 .idea
 __pycache__
 rasa_core.log

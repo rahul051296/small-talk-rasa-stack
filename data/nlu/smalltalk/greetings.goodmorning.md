@@ -1,4 +1,5 @@
 ## intent:greetings.goodmorning
+- GM
 - good morning
 - good morning to you
 - hello good morning

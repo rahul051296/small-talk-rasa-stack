@@ -5,8 +5,17 @@
 - I can't sleep
 - I can't fall asleep
 - I can't get to sleep
-- I can't get no sleep
 - I'm insomniac
 - I'm not able to sleep
 - I'm wide awake
 - I can't seem to fall asleep
+- I couldn't sleep
+- I just can't sleep
+- I can't sleep at all
+- I didn't go to sleep
+- I just couldn't sleep
+- I'm not sleeping well
+- Trying to get some sleep
+- I can't sleep at night
+- I couldn't get to sleep
+- I didn't get much sleep

@@ -12,3 +12,10 @@
 - you're too annoying
 - you are very annoying
 - Why are you annoying me so much
+- How annoying!
+- It's annoying
+- That's annoying
+- It's just annoying
+- That's so annoying
+- You really annoy me
+- You're starting to annoy me

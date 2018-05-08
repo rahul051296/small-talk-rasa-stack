@@ -10,3 +10,4 @@
 - going to bed now
 - gonna go to bed
 - time to sleep
+- I sometimes feel drowsy in the early afternoon

@@ -10,3 +10,12 @@
 - I'm damn excited
 - I'm hyped
 - I'm very excited
+- I felt excited
+- It was exciting 
+- That was exciting
+- I'm really excited
+- How exciting!
+- i'm excited about tomorrow
+- It was very exciting! I'd like to use this feature again
+- I'm pretty excited about it
+- It's fun and exciting

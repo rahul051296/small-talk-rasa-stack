@@ -2,11 +2,20 @@
 - I miss you
 - missing you
 - miss you
-- already miss you
-- I miss you much
+- I miss you very much
+- I'll miss you so much
 - I missed you
 - I've missed you
-- miss you so much
 - miss you buddy
 - miss you badly
 - miss you :(
+- I missed you
+- I'll miss you
+- We'll miss you
+- I just miss you
+- I've missed you
+- I miss you a lot
+- I really miss you
+- I miss you already
+- I think i miss u
+- I miss talking with you

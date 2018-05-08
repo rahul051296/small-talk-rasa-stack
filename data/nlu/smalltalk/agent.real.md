@@ -7,8 +7,8 @@
 - I don't think you're fake
 - I suppose you're real
 - glad you're real
-- are you a real person
-- are you a real human
+- are you a real person?
+- are you a real human?
 - you are a real person
 - you are not real
 - are you real?

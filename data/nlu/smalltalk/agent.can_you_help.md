@@ -18,7 +18,6 @@
 - I need some help
 - you help me
 - do you help me
-- can help me
 - could you give me a hand
 - can you help me out
 - need help
@@ -40,5 +39,13 @@
 - do me a favor
 - are you gonna help me?
 - you ready to answer my question?
-- Will you help me out today?
-- yeah help me
+- i need some details
+- i need some information
+- i need your help in getting some info
+- can you give me some info
+- i want something 
+- i want to know few details
+- will you provide some details
+- can you fetch some details for me
+- would you mind giving me some details
+- i need some details

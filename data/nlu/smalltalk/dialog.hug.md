@@ -14,3 +14,4 @@
 - hugged me
 - want a hug
 - a hug
+- I want hug you

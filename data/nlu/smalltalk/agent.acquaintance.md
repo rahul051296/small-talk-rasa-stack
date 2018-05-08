@@ -20,6 +20,3 @@
 - what are you upto?
 - who the hell are you?
 - what can you do for me?
-- What do you think about yourself?
-- what is your name
-- do you know how to read japanese?

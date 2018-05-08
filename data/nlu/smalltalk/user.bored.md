@@ -5,10 +5,17 @@
 - bored
 - boring
 - I am getting bored
-- this is boring
+- Staying at home is boring
 - very boring
 - it bores me
 - i had a slow day
 - i am very bored
 - Im kinda bored today 
-- Im kinda bored today man
+- I've never been more bored
+- I was bored
+- It's boring
+- This is boring
+- We're all bored
+- It's very boring
+- I'm already bored
+- I'm bored out of my mind

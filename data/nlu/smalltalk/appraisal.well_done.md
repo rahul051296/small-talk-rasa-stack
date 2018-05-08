@@ -6,7 +6,16 @@
 - nice work
 - great work
 - amazing work
+- you did a wonderful job
 - bravo
 - fantastic
 - good work
+- marvelous
+- splendid
+- mind blowing
+- just great
+- u r awesome
+- kudos
+- brilliant
+- out standing
 - zing zing amazing

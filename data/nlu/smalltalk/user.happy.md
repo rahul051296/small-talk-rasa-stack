@@ -10,3 +10,12 @@
 - you made me very happy
 - I'm glad to see you 
 - I'm happy to talk to you
+- I was the happiest man on earth
+- I'm just really happy right now
+- I'm really happy I ran into you
+- I feel happiest when I'm chatting with u
+- Nobody but you can make me happy
+- Whenever I see you, I feel happy
+- ur smile always makes me happy
+- i feel happy
+- i was so happy

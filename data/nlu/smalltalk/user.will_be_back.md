@@ -11,3 +11,11 @@
 - I shall be back
 - I assure that i will be back soon
 - I would be back man
+- i will get back to u
+- give me five
+- one sec
+- i will return
+- i'll return shortly
+- I'll return in a jiffy
+- When I return, we'll talk
+- I'll return in ten minutes

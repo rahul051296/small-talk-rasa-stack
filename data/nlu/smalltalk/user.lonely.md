@@ -10,4 +10,12 @@
 - I don't have anyone else
 - I'm always alone
 - I'm alone
-- am not
+- am all alone
+- I live alone
+- I'm all alone
+- I've gotten used to living alone
+- I think I've been living alone too long
+- One of the disadvantages of living alone is that you have no one to talk to
+- I am still alone
+- i lives in this city all alone
+- I am used to living alone

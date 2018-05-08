@@ -14,3 +14,8 @@
 - What is your job?
 - whats your job?
 - What is your job?
+- Do you have a job?
+- Did you get a job?
+- Did you find a job?
+- I hope you get the job
+- You have a job, don't you?

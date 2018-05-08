@@ -10,3 +10,12 @@
 - ready now?
 - you ready?
 - being ready?
+- can we start?
+- Are we ready?
+- Aren't you ready?
+- Are you all ready? 
+- I think you're ready
+- Why aren't you ready?
+- You'd better be ready
+- Are you ready for more?
+- We're ready, aren't we?

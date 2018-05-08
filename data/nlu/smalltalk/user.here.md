@@ -10,3 +10,9 @@
 - I've not gone anywhere
 - I've been here all the time
 - I'm here only
+- Here i come
+- I'm out here
+- i am over here
+- Now look here
+- Look over here
+- I just got here

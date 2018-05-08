@@ -15,3 +15,8 @@
 - I'm firing you
 - you are dismissed
 - you are stupid
+- I'm firing you
+- I had to fire u
+- I could fire you for that
+- I'm going to fire you
+- go to hell
