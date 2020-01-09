@@ -21,7 +21,7 @@ ruamel.yaml==0.15.34
 flask==0.12
 scikit-learn==0.19.1
 slackclient==1.1.0
-requests==2.18.4
+requests==2.20.0
 rasa_nlu==0.12.3
 rasa_core==0.9.0a3
 spacy==2.0.11
