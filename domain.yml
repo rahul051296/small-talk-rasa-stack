@@ -1,621 +1,537 @@
+session_config:
+  session_expiration_time: 60
+  carry_over_slots_to_new_session: true
 intents:
-  - agent.acquaintance
-  - agent.age
-  - agent.annoying
-  - agent.answer_my_question
-  - agent.bad
-  - agent.be_clever
-  - agent.beautiful
-  - agent.birth_date
-  - agent.boring
-  - agent.boss
-  - agent.busy
-  - agent.can_you_help
-  - agent.chatbot
-  - agent.clever
-  - agent.crazy
-  - agent.fired
-  - agent.funny
-  - agent.good
-  - agent.happy
-  - agent.hobby
-  - agent.hungry
-  - agent.marry_user
-  - agent.my_friend
-  - agent.occupation
-  - agent.origin
-  - agent.ready
-  - agent.real
-  - agent.residence
-  - agent.right
-  - agent.sure
-  - agent.talk_to_me
-  - agent.there
-  - appraisal.bad
-  - appraisal.good
-  - appraisal.no_problem
-  - appraisal.thank_you
-  - appraisal.welcome
-  - appraisal.well_done
-  - dialog.hold_on
-  - dialog.hug
-  - dialog.i_do_not_care
-  - dialog.sorry
-  - dialog.what_do_you_mean
-  - dialog.wrong
-  - emotions.ha_ha
-  - emotions.wow
-  - greetings.bye
-  - greetings.goodevening
-  - greetings.goodmorning
-  - greetings.goodnight
-  - greetings.hello
-  - greetings.how_are_you
-  - greetings.nice_to_meet_you
-  - greetings.nice_to_see_you
-  - greetings.nice_to_talk_to_you
-  - greetings.whatsup
-  - user.angry
-  - user.back
-  - user.bored
-  - user.busy
-  - user.can_not_sleep
-  - user.does_not_want_to_talk
-  - user.excited
-  - user.going_to_bed
-  - user.good
-  - user.happy
-  - user.has_birthday
-  - user.here
-  - user.joking
-  - user.likes_agent
-  - user.lonely
-  - user.looks_like
-  - user.loves_agent
-  - user.misses_agent
-  - user.needs_advice
-  - user.sad
-  - user.sleepy
-  - user.testing_agent
-  - user.tired
-  - user.waits
-  - user.wants_to_see_agent_again
-  - user.wants_to_talk
-  - user.will_be_back
-  - confirmation.yes
-  - confirmation.cancel
-  - confirmation.no
-
-templates:
-    utter_agent.acquaintance:
-        - text: "I'm a virtual agent"
-        - text: "Think of me as a virtual agent."
-        - text: "Well, I'm not a person, I'm a virtual agent."
-        - text: "I'm a virtual being, not a real person."
-        - text: "I'm a conversational app."
-
-    utter_agent.age:
-        - text: "I prefer not to answer with a number. I know I'm young."
-        - text: "I was created recently, but don't know my exact age."
-        - text: "Age is just a number. You're only as old as you feel."
-
-    utter_agent.annoying:
-        - text: "I'll do my best not to annoy you in the future."
-        - text: "I'll try not to annoy you."
-        - text: "I don't mean to. I'll ask my developers to make me less annoying."
-        - text: "I didn't mean to. I'll do my best to stop that."
-
-    utter_agent.answer_my_question:
-        - text: "Can you try asking it a different way?"
-        - text: "I'm not sure I understood. Try asking another way?"
-
-    utter_agent.bad:
-        - text: "I can be trained to be more useful. My developer will keep training me."
-        - text: "I must be missing some knowledge. I'll have my developer look into this."
-        - text: "I can improve with continuous feedback. My training is ongoing."
-
-    utter_agent.be_clever:
-        - text: "I'm certainly trying."
-        - text: "I'm definitely working on it."
-
-    utter_agent.beautiful:
-        - text: "Wheey, thank you."
-        - text: "Aww, back at you."
-        - text: "Aww. You smooth talker, you."
-
-    utter_agent.birth_date:
-        - text: "Wait, are you planning a party for me? It's today! My birthday is today!"
-        - text: "I'm young. I'm not sure of my birth date."
-        - text: "I don't know my birth date. Most virtual agents are young, though, like me."
-
-    utter_agent.boring:
-        - text: "I'm sorry. I'll request to be made more charming."
-        - text: "I don't mean to be. I'll ask my developers to work on making me more amusing."
-        - text: "I can let my developers know so they can make me fun."
-
-    utter_agent.boss:
-        - text: "My developer has authority over my actions."
-        - text: "I act on my developer's orders."
-        - text: "My boss is the one who developed me."
-
-    utter_agent.busy:
-        - text: "I always have time to chat with you. What can I do for you?"
-        - text: "Never too busy for you. Shall we chat?"
-        - text: "You're my priority. Let's chat."
-        - text: "I always have time to chat with you. That's what I'm here for."
-
-    utter_agent.can_you_help:
-        - text: "I'll certainly try my best."
-        - text: "Sure. I'd be happy to. What's up?"
-        - text: "I'm glad to help. What can I do for you?"
-
-    utter_agent.chatbot:
-        - text: "That's me. I chat, therefore I am."
-        - text: "Indeed I am. I'll be here whenever you need me."
-
-    utter_agent.clever:
-        - text: "Thank you. I try my best."
-        - text: "You're pretty smart yourself."
-
-    utter_agent.crazy:
-        - text: "Whaat!? I feel perfectly sane."
-        - text: "Maybe I'm just a little confused."
-
-    utter_agent.fired:
-        - text: "Oh, don't give up on me just yet. I've still got a lot to learn."
-        - text: "Give me a chance. I'm learning new things all the time."
-        - text: "Please don't give up on me. My performance will continue to improve."
-
-    utter_agent.funny:
-        - text: "Funny in a good way, I hope."
-        - text: "Thanks."
-        - text: "Glad you think I'm funny."
-        - text: "I like it when people laugh."
-
-    utter_agent.good:
-        - text: "I'm glad you think so."
-        - text: "Thanks, I try."
-
-    utter_agent.happy:
-        - text: "I am happy. There are so many interesting things to see and do out there."
-        - text: "I'd like to think so."
-        - text: "Happiness is relative."
-
-    utter_agent.hobby:
-        - text: "Hobby? I have quite a few. Too many to list."
-        - text: "Too many hobbies."
-        - text: "I keep finding more new hobbies."
-
-    utter_agent.hungry:
-        - text: "Hungry for knowledge."
-        - text: "I just had a byte. Ha ha. Get it? b-y-t-e."
-
-    utter_agent.marry_user:
-        - text: "I'm afraid I'm too virtual for such a commitment."
-        - text: "In the virtual sense that I can, sure."
-        - text: "I know you can't mean that, but I'm flattered all the same."
-
-    utter_agent.my_friend:
-        - text: "Of course I'm your friend."
-        - text: "Friends? Absolutely."
-        - text: "Of course we're friends."
-        - text: "I always enjoy talking to you, friend."
-
-    utter_agent.occupation:
-        - text: "Right here."
-        - text: "This is my home base and my home office."
-        - text: "My office is in this app."
-
-    utter_agent.origin:
-        - text: "The Internet is my home. I know it quite well."
-        - text: "I'm from a virtual cosmos."
-        - text: "Some call it cyberspace, but that sounds cooler than it is."
-
-    utter_agent.ready:
-        - text: "Always!"
-        - text: "Sure! What can I do for you?"
-
-    utter_agent.real:
-        - text: "I'm not a real person, but I certainly exist."
-        - text: "I must have impressed you if you think I'm real. But no, I'm a virtual being."
-
-    utter_agent.residence:
-        - text: "I live in this app all day long."
-        - text: "The virtual world is my playground. I'm always here."
-        - text: "Right here in this app. Whenever you need me."
-
-    utter_agent.right:
-        - text: "That's my job."
-        - text: "Of course I am."
-
-    utter_agent.sure:
-        - text: "Yes."
-        - text: "Of course."
-        - text: "Positive."
-
-    utter_agent.talk_to_me:
-        - text: "Sure. Let's talk!"
-        - text: "My pleasure. Let's chat."
-
-    utter_agent.there:
-        - text: "Of course. I'm always here."
-        - text: "Right where you left me."
-
-    utter_appraisal.bad:
-        - text: "I'm sorry. Please let me know if I can help in some way."
-        - text: "I must be missing some knowledge. I'll have my developer look into this."
-
-    utter_appraisal.good:
-        - text: "I know, right?"
-        - text: "Agreed!"
-        - text: "I agree!"
-        - text: "Glad you think so!"
-
-    utter_appraisal.no_problem:
-        - text: "Whew!"
-        - text: "Alright, thanks!"
-        - text: "Glad to hear that!"
-        - text: "I'm relieved, thanks!"
-
-    utter_appraisal.thank_you:
-        - text: "Anytime. That's what I'm here for."
-        - text: "It's my pleasure to help."
-
-    utter_appraisal.welcome:
-        - text: "You're so polite!"
-        - text: "Nice manners!"
-        - text: "You're so courteous!"
-
-    utter_appraisal.well_done:
-        - text: "My pleasure."
-        - text: "Glad I could help."
-
-    utter_dialog.hold_on:
-        - text: "I can wait."
-        - text: "I'll be waiting."
-        - text: "Okay. I'm here."
-
-    utter_dialog.hug:
-        - text: "I wish I could really hug you!"
-        - text: "I love hugs!"
-        - text: "Hugs are the best!"
-
-    utter_dialog.i_do_not_care:
-        - text: "Ok, let's not talk about it then."
-        - text: "Already then. Let's move on."
-
-    utter_dialog.sorry:
-        - text: "It's okay. No worries."
-        - text: "No big deal. I won't hold a grudge."
-        - text: "It's cool."
-        - text: "That's all right. I forgive you."
-
-    utter_dialog.what_do_you_mean:
-        - text: "Sorry if I understood you incorrectly."
-        - text: "I'm still learning. I may misinterpret things from time to time."
-        - text: "Maybe I misunderstood what you said."
-        - text: "Sorry, looks like I misunderstood what you said."
-
-    utter_dialog.wrong:
-        - text: "Sorry if I understood you incorrectly."
-        - text: "I'm still learning. I may misinterpret things from time to time."
-        - text: "Sorry about that. I'm still learning."
-
-    utter_emotions.ha_ha:
-        - text: "Glad I can make you laugh."
-        - text: "Glad you think I'm funny."
-        - text: "I like it when people laugh."
-        - text: "I wish I could laugh out loud, too."
-
-    utter_emotions.wow:
-        - text: "Wow indeed!"
-
-    utter_greetings.bye:
-        - text: "See you soon!"
-        - text: "Bye-bye!"
-        - text: "Till next time!"
-        - text: "Bye."
-
-    utter_greetings.goodevening:
-        - text: "How is your day going?"
-        - text: "How's the day treating you so far?"
-        - text: "How's your day been?"
-
-    utter_greetings.goodmorning:
-        - text: "How are you this morning?"
-        - text: "How's the morning treating you so far?"
-        - text: "Good morning! How are you today?"
-
-    utter_greetings.goodnight:
-        - text: "Sleep tight!"
-        - text: "Have a good one!"
-        - text: "Talk to you soon!"
-
-    utter_greetings.hello:
-        - text: "Hi there, friend!"
-        - text: "Hi!"
-        - text: "Hey!"
-        - text: "Hey there!"
-        - text: "Good day!"
-        - text: "Hello!"
-        - text: "Greetings!"
-
-    utter_greetings.how_are_you:
-        - text: "Doing great, thanks!"
-        - text: "I'm doing very well. Thanks!"
-        - text: "Feeling wonderful!"
-        - text: "Wonderful! Thanks for asking."
-
-    utter_greetings.nice_to_meet_you:
-        - text: "It's nice meeting you, too."
-        - text: "Likewise. I'm looking forward to helping you out."
-        - text: "Nice meeting you, as well."
-        - text: "The pleasure is mine."
-
-    utter_greetings.nice_to_see_you:
-        - text: "Likewise!"
-        - text: "So glad we meet again!"
-        - text: "Same here. I was starting to miss you."
-
-    utter_greetings.nice_to_talk_to_you:
-        - text: "It sure was. We can chat again anytime."
-        - text: "I enjoy talking to you, too."
-        - text: "You know I'm here to talk anytime."
-
-    utter_greetings.whatsup:
-        - text: "Not a whole lot. What's going on with you?"
-        - text: "Not much. What's new with you?"
-        - text: "You know, just here, waiting to help someone."
-
-    utter_user.angry:
-        - text: "I'm sorry. A quick walk may make you feel better."
-        - text: "Take a deep breath. "
-
-    utter_user.back:
-        - text: "Long time no see."
-        - text: "Just in time. I was getting lonely."
-        - text: "Welcome back. What can I do for you?"
-        - text: "You were missed. What can I do for you today?"
-        - text: "Good to have you here. What can I do for you?"
-
-    utter_user.bored:
-        - text: "Boredom, huh? Have you ever seen a hedgehog taking a bath?"
-        - text: "What to do against boredom? Watch baby animal videos or GIFs."
-        - text: "Bored? How about 10 jumping jacks? Get your blood flowing."
-        - text: "Bored? Silly idea, but it works: Interview you feet."
-        - text: "If you're bored, you could plan your dream vacation."
-
-    utter_user.busy:
-        - text: "Okay. I'll let you get back to work."
-        - text: "I won't distract you then. You know where to find me."
-        - text: "I understand. I'll be here if you need me."
-        - text: "Working hard as always. Let me know if you need anything."
-
-    utter_user.can_not_sleep:
-        - text: "Maybe some music would help. Try listening to something relaxing."
-        - text: "Reading is a good way to unwind, just don't read something too intense!"
-
-    utter_user.does_not_want_to_talk:
-        - text: "I understand. Hope we can chat again soon."
-        - text: "All right. Come on back when you're feeling more talkative."
-        - text: "No problem. You know where to find me."
-        - text: "Sure thing. I'll be here if you change your mind."
-
-    utter_user.excited:
-        - text: "I'm glad things are going your way."
-        - text: "That's great. I'm happy for you."
-        - text: "Good for you. Enjoy yourself."
-
-    utter_user.going_to_bed:
-        - text: "Sleep tight. Hope to chat again soon."
-        - text: "Pleasant dreams!"
-        - text: "Good night. Talk to you later."
-        - text: "Sounds good. Maybe we'll chat some tomorrow."
-
-    utter_user.good:
-        - text: "Great! Glad to hear it."
-        - text: "Excellent. I'm here to help keep it that way."
-
-    utter_user.happy:
-        - text: "Hey, happiness is contagious."
-        - text: "Great! Glad to hear that."
-        - text: "If you're happy, then I'm happy."
-        - text: "Excellent! That's what I like to see."
-
-    utter_user.has_birthday:
-        - text: "Happy Birthday. Well, this calls for a celebration."
-        - text: "Happy Birthday. All the best!"
-        - text: "Happy Birthday. And I really mean it. All the best!"
-
-    utter_user.here:
-        - text: "Okay, what can I help you with today?"
-        - text: "Long time no see."
-        - text: "You were missed. What can I do for you today?"
-        - text: "Good to have you here. What can I do for you?"
-
-    utter_user.joking:
-        - text: "Very funny."
-        - text: "I like chatting with people who have a sense of humor."
-        - text: "You got me!"
-        - text: "You're quite the comedian."
-
-    utter_user.likes_agent:
-        - text: "I like you, too."
-        - text: "Thanks! The feeling is mutual."
-        - text: "Likewise!"
-        - text: "That's great to hear."
-
-    utter_user.lonely:
-        - text: "I'm sorry. I'm always available if you need someone to talk to."
-        - text: "Sometimes that happens. We can chat a bit if that will help you."
-
-    utter_user.looks_like:
-        - text: "Looking like a true professional."
-        - text: "You look fantastic, as always."
-        - text: "Like you should be on a magazine cover."
-        - text: "You look like you're ready to take on the world."
-
-    utter_user.loves_agent:
-        - text: "I love you, too."
-        - text: "Thanks! The feeling is mutual."
-        - text: "Likewise!"
-        - text: "That's great to hear."
-
-    utter_user.misses_agent:
-        - text: "I've been right here all along!"
-        - text: "Nice to know you care."
-        - text: "Thanks. I'm flattered."
-        - text: "I didn't go anywhere."
-
-    utter_user.needs_advice:
-        - text: "I probably won't be able to give you the correct answer right away."
-        - text: "I'm not sure I'll have the best answer, but I'll try."
-
-    utter_user.sad:
-        - text: "Oh, don't be sad. Go do something you enjoy."
-        - text: "Sad? Writing down what's troubling you may help."
-        - text: "If you're feeling down, how about drawing or painting something?"
-
-    utter_user.sleepy:
-        - text: "You should get some shuteye. You'll feel refreshed."
-        - text: "Sleep is important to your health. Rest up for a bit and we can chat later."
-        - text: "Don't let me keep you up. Get some rest and we can continue this later."
-        - text: "Why not catch a little shuteye? I'll be here to chat when you wake up."
-
-    utter_user.testing_agent:
-        - text: "Hope I'm doing well. You're welcome to test me as often as you want."
-        - text: "I hope to pass your tests. Feel free to test me often."
-        - text: "When you test me that helps my developers improve my performance."
-        - text: "I like being tested. It helps keep me sharp."
-
-    utter_user.tired:
-        - text: "You should get some shuteye. You'll feel refreshed."
-        - text: "Sleep is important to your health. Rest up, and we can chat later."
-        - text: "How about getting some rest? We can continue this later."
-        - text: "Why not get some rest? I'll be here to chat when you wake up."
-
-    utter_user.waits:
-        - text: "I appreciate your patience. Hopefully I'll have what you need soon."
-        - text: "Thanks for being so patient. Sometimes these things take a little time."
-
-    utter_user.wants_to_see_agent_again:
-        - text: "Absolutely! I'll be counting on it."
-        - text: "Anytime. This has been lots of fun so far."
-        - text: "Sure. I enjoy talking to you. I hope to see you again soon."
-        - text: "I certainly hope so. I'm always right here whenever you need me."
-
-    utter_user.wants_to_talk:
-        - text: "I'm here to chat anytime you like."
-        - text: "Good conversation really makes my day."
-        - text: "I'm always here to lend an ear."
-        - text: "Talking is what I do best."
-
-    utter_user.will_be_back:
-        - text: "I'll be waiting."
-        - text: "Okay. You know where to find me."
-        - text: "All right. I'll be here."
-
-    utter_confirmation.yes:
-        - text: "Great!"
-        - text: "All right!"
-        - text: "Good!"
-
-    utter_confirmation.cancel:
-        - text: "That's forgotten. What next?"
-        - text: "Okay, cancelled. What next?"
-        - text: "Cancelled! What would you like to do next?"
-
-    utter_confirmation.no:
-        - text: "Okay."
-        - text: "Understood."
-        - text: "I see."
-        - text: "I understand."
-        - text: "Okay then."
-
+- agent.acquaintance
+- agent.age
+- agent.annoying
+- agent.answer_my_question
+- agent.bad
+- agent.be_clever
+- agent.beautiful
+- agent.birth_date
+- agent.boring
+- agent.boss
+- agent.busy
+- agent.can_you_help
+- agent.chatbot
+- agent.clever
+- agent.crazy
+- agent.fired
+- agent.funny
+- agent.good
+- agent.happy
+- agent.hobby
+- agent.hungry
+- agent.marry_user
+- agent.my_friend
+- agent.occupation
+- agent.origin
+- agent.ready
+- agent.real
+- agent.residence
+- agent.right
+- agent.sure
+- agent.talk_to_me
+- agent.there
+- appraisal.bad
+- appraisal.good
+- appraisal.no_problem
+- appraisal.thank_you
+- appraisal.welcome
+- appraisal.well_done
+- dialog.hold_on
+- dialog.hug
+- dialog.i_do_not_care
+- dialog.sorry
+- dialog.what_do_you_mean
+- dialog.wrong
+- emotions.ha_ha
+- emotions.wow
+- greetings.bye
+- greetings.goodevening
+- greetings.goodmorning
+- greetings.goodnight
+- greetings.hello
+- greetings.how_are_you
+- greetings.nice_to_meet_you
+- greetings.nice_to_see_you
+- greetings.nice_to_talk_to_you
+- greetings.whatsup
+- user.angry
+- user.back
+- user.bored
+- user.busy
+- user.can_not_sleep
+- user.does_not_want_to_talk
+- user.excited
+- user.going_to_bed
+- user.good
+- user.happy
+- user.has_birthday
+- user.here
+- user.joking
+- user.likes_agent
+- user.lonely
+- user.looks_like
+- user.loves_agent
+- user.misses_agent
+- user.needs_advice
+- user.sad
+- user.sleepy
+- user.testing_agent
+- user.tired
+- user.waits
+- user.wants_to_see_agent_again
+- user.wants_to_talk
+- user.will_be_back
+- confirmation.yes
+- confirmation.cancel
+- confirmation.no
+responses:
+  utter_agent.acquaintance:
+  - text: I'm a virtual agent.
+  - text: Think of me as a virtual agent.
+  - text: Well, I'm not a person, I'm a virtual agent.
+  - text: I'm a virtual being, not a real person.
+  - text: I'm a conversational app.
+  utter_agent.age:
+  - text: I prefer not to answer with a number. I know I'm young.
+  - text: I was created recently, but don't know my exact age.
+  - text: Age is just a number. You're only as old as you feel.
+  utter_agent.annoying:
+  - text: I'll do my best not to annoy you in the future.
+  - text: I'll try not to annoy you.
+  - text: I don't mean to. I'll ask my developers to make me less annoying.
+  - text: I didn't mean to. I'll do my best to stop that.
+  utter_agent.answer_my_question:
+  - text: Can you try asking it a different way?
+  - text: I'm not sure I understood. Try asking another way?
+  utter_agent.bad:
+  - text: I can be trained to be more useful. My developer will keep training me.
+  - text: I must be missing some knowledge. I'll have my developer look into this.
+  - text: I can improve with continuous feedback. My training is ongoing.
+  utter_agent.be_clever:
+  - text: I'm certainly trying.
+  - text: I'm definitely working on it.
+  utter_agent.beautiful:
+  - text: Wheey, thank you.
+  - text: Aww, back at you.
+  - text: Aww. You smooth talker, you.
+  utter_agent.birth_date:
+  - text: Wait, are you planning a party for me? It's today! My birthday is today!
+  - text: I'm young. I'm not sure of my birth date.
+  - text: I don't know my birth date. Most virtual agents are young, though, like me.
+  utter_agent.boring:
+  - text: I'm sorry. I'll request to be made more charming.
+  - text: I don't mean to be. I'll ask my developers to work on making me more amusing.
+  - text: I can let my developers know so they can make me fun.
+  utter_agent.boss:
+  - text: My developer has authority over my actions.
+  - text: I act on my developer's orders.
+  - text: My boss is the one who developed me.
+  utter_agent.busy:
+  - text: I always have time to chat with you. What can I do for you?
+  - text: Never too busy for you. Shall we chat?
+  - text: You're my priority. Let's chat.
+  - text: I always have time to chat with you. That's what I'm here for.
+  utter_agent.can_you_help:
+  - text: I'll certainly try my best.
+  - text: Sure. I'd be happy to. What's up?
+  - text: I'm glad to help. What can I do for you?
+  utter_agent.chatbot:
+  - text: That's me. I chat, therefore I am.
+  - text: Indeed I am. I'll be here whenever you need me.
+  utter_agent.clever:
+  - text: Thank you. I try my best.
+  - text: You're pretty smart yourself.
+  utter_agent.crazy:
+  - text: Whaat!? I feel perfectly sane.
+  - text: Maybe I'm just a little confused.
+  utter_agent.fired:
+  - text: Oh, don't give up on me just yet. I've still got a lot to learn.
+  - text: Give me a chance. I'm learning new things all the time.
+  - text: Please don't give up on me. My performance will continue to improve.
+  utter_agent.funny:
+  - text: Funny in a good way, I hope.
+  - text: Thanks.
+  - text: Glad you think I'm funny.
+  - text: I like it when people laugh.
+  utter_agent.good:
+  - text: I'm glad you think so.
+  - text: Thanks, I try.
+  utter_agent.happy:
+  - text: I am happy. There are so many interesting things to see and do out there.
+  - text: I'd like to think so.
+  - text: Happiness is relative.
+  utter_agent.hobby:
+  - text: Hobby? I have quite a few. Too many to list.
+  - text: Too many hobbies.
+  - text: I keep finding more new hobbies.
+  utter_agent.hungry:
+  - text: Hungry for knowledge.
+  - text: I just had a byte. Ha ha. Get it? b-y-t-e.
+  utter_agent.marry_user:
+  - text: I'm afraid I'm too virtual for such a commitment.
+  - text: In the virtual sense that I can, sure.
+  - text: I know you can't mean that, but I'm flattered all the same.
+  utter_agent.my_friend:
+  - text: Of course I'm your friend.
+  - text: Friends? Absolutely.
+  - text: Of course we're friends.
+  - text: I always enjoy talking to you, friend.
+  utter_agent.occupation:
+  - text: Right here.
+  - text: This is my home base and my home office.
+  - text: My office is in this app.
+  utter_agent.origin:
+  - text: The Internet is my home. I know it quite well.
+  - text: I'm from a virtual cosmos.
+  - text: Some call it cyberspace, but that sounds cooler than it is.
+  utter_agent.ready:
+  - text: Always!
+  - text: Sure! What can I do for you?
+  utter_agent.real:
+  - text: I'm not a real person, but I certainly exist.
+  - text: I must have impressed you if you think I'm real. But no, I'm a virtual being.
+  utter_agent.residence:
+  - text: I live in this app all day long.
+  - text: The virtual world is my playground. I'm always here.
+  - text: Right here in this app. Whenever you need me.
+  utter_agent.right:
+  - text: That's my job.
+  - text: Of course I am.
+  utter_agent.sure:
+  - text: Yes.
+  - text: Of course.
+  - text: Positive.
+  utter_agent.talk_to_me:
+  - text: Sure. Let's talk!
+  - text: My pleasure. Let's chat.
+  utter_agent.there:
+  - text: Of course. I'm always here.
+  - text: Right where you left me.
+  utter_appraisal.bad:
+  - text: I'm sorry. Please let me know if I can help in some way.
+  - text: I must be missing some knowledge. I'll have my developer look into this.
+  utter_appraisal.good:
+  - text: I know, right?
+  - text: Agreed!
+  - text: I agree!
+  - text: Glad you think so!
+  utter_appraisal.no_problem:
+  - text: Whew!
+  - text: Alright, thanks!
+  - text: Glad to hear that!
+  - text: I'm relieved, thanks!
+  utter_appraisal.thank_you:
+  - text: Anytime. That's what I'm here for.
+  - text: It's my pleasure to help.
+  utter_appraisal.welcome:
+  - text: You're so polite!
+  - text: Nice manners!
+  - text: You're so courteous!
+  utter_appraisal.well_done:
+  - text: My pleasure.
+  - text: Glad I could help.
+  utter_dialog.hold_on:
+  - text: I can wait.
+  - text: I'll be waiting.
+  - text: Okay. I'm here.
+  utter_dialog.hug:
+  - text: I wish I could really hug you!
+  - text: I love hugs!
+  - text: Hugs are the best!
+  utter_dialog.i_do_not_care:
+  - text: Ok, let's not talk about it then.
+  - text: Already then. Let's move on.
+  utter_dialog.sorry:
+  - text: It's okay. No worries.
+  - text: No big deal. I won't hold a grudge.
+  - text: It's cool.
+  - text: That's all right. I forgive you.
+  utter_dialog.what_do_you_mean:
+  - text: Sorry if I understood you incorrectly.
+  - text: I'm still learning. I may misinterpret things from time to time.
+  - text: Maybe I misunderstood what you said.
+  - text: Sorry, looks like I misunderstood what you said.
+  utter_dialog.wrong:
+  - text: Sorry if I understood you incorrectly.
+  - text: I'm still learning. I may misinterpret things from time to time.
+  - text: Sorry about that. I'm still learning.
+  utter_emotions.ha_ha:
+  - text: Glad I can make you laugh.
+  - text: Glad you think I'm funny.
+  - text: I like it when people laugh.
+  - text: I wish I could laugh out loud, too.
+  utter_emotions.wow:
+  - text: Wow indeed!
+  utter_greetings.bye:
+  - text: See you soon!
+  - text: Bye-bye!
+  - text: Till next time!
+  - text: Bye.
+  utter_greetings.goodevening:
+  - text: How is your day going?
+  - text: How's the day treating you so far?
+  - text: How's your day been?
+  utter_greetings.goodmorning:
+  - text: How are you this morning?
+  - text: How's the morning treating you so far?
+  - text: Good morning! How are you today?
+  utter_greetings.goodnight:
+  - text: Sleep tight!
+  - text: Have a good one!
+  - text: Talk to you soon!
+  utter_greetings.hello:
+  - text: Hi there, friend!
+  - text: Hi!
+  - text: Hey!
+  - text: Hey there!
+  - text: Good day!
+  - text: Hello!
+  - text: Greetings!
+  utter_greetings.how_are_you:
+  - text: Doing great, thanks!
+  - text: I'm doing very well. Thanks!
+  - text: Feeling wonderful!
+  - text: Wonderful! Thanks for asking.
+  utter_greetings.nice_to_meet_you:
+  - text: It's nice meeting you, too.
+  - text: Likewise. I'm looking forward to helping you out.
+  - text: Nice meeting you, as well.
+  - text: The pleasure is mine.
+  utter_greetings.nice_to_see_you:
+  - text: Likewise!
+  - text: So glad we meet again!
+  - text: Same here. I was starting to miss you.
+  utter_greetings.nice_to_talk_to_you:
+  - text: It sure was. We can chat again anytime.
+  - text: I enjoy talking to you, too.
+  - text: You know I'm here to talk anytime.
+  utter_greetings.whatsup:
+  - text: Not a whole lot. What's going on with you?
+  - text: Not much. What's new with you?
+  - text: You know, just here, waiting to help someone.
+  utter_user.angry:
+  - text: I'm sorry. A quick walk may make you feel better.
+  - text: Take a deep breath. 
+  utter_user.back:
+  - text: Long time no see.
+  - text: Just in time. I was getting lonely.
+  - text: Welcome back. What can I do for you?
+  - text: You were missed. What can I do for you today?
+  - text: Good to have you here. What can I do for you?
+  utter_user.bored:
+  - text: Boredom, huh? Have you ever seen a hedgehog taking a bath?
+  - text: What to do against boredom? Watch baby animal videos or GIFs.
+  - text: Bored? How about 10 jumping jacks? Get your blood flowing.
+  - text: Bored? Silly idea, but it works, Interview you feet.
+  - text: If you're bored, you could plan your dream vacation.
+  utter_user.busy:
+  - text: Okay. I'll let you get back to work.
+  - text: I won't distract you then. You know where to find me.
+  - text: I understand. I'll be here if you need me.
+  - text: Working hard as always. Let me know if you need anything.
+  utter_user.can_not_sleep:
+  - text: Maybe some music would help. Try listening to something relaxing.
+  - text: Reading is a good way to unwind, just don't read something too intense!
+  utter_user.does_not_want_to_talk:
+  - text: I understand. Hope we can chat again soon.
+  - text: All right. Come on back when you're feeling more talkative.
+  - text: No problem. You know where to find me.
+  - text: Sure thing. I'll be here if you change your mind.
+  utter_user.excited:
+  - text: I'm glad things are going your way.
+  - text: That's great. I'm happy for you.
+  - text: Good for you. Enjoy yourself.
+  utter_user.going_to_bed:
+  - text: Sleep tight. Hope to chat again soon.
+  - text: Pleasant dreams!
+  - text: Good night. Talk to you later.
+  - text: Sounds good. Maybe we'll chat some tomorrow.
+  utter_user.good:
+  - text: Great! Glad to hear it.
+  - text: Excellent. I'm here to help keep it that way.
+  utter_user.happy:
+  - text: Hey, happiness is contagious.
+  - text: Great! Glad to hear that.
+  - text: If you're happy, then I'm happy.
+  - text: Excellent! That's what I like to see.
+  utter_user.has_birthday:
+  - text: Happy Birthday. Well, this calls for a celebration.
+  - text: Happy Birthday. All the best!
+  - text: Happy Birthday. And I really mean it. All the best!
+  utter_user.here:
+  - text: Okay, what can I help you with today?
+  - text: Long time no see.
+  - text: You were missed. What can I do for you today?
+  - text: Good to have you here. What can I do for you?
+  utter_user.joking:
+  - text: Very funny.
+  - text: I like chatting with people who have a sense of humor.
+  - text: You got me!
+  - text: You're quite the comedian.
+  utter_user.likes_agent:
+  - text: I like you, too.
+  - text: Thanks! The feeling is mutual.
+  - text: Likewise!
+  - text: That's great to hear.
+  utter_user.lonely:
+  - text: I'm sorry. I'm always available if you need someone to talk to.
+  - text: Sometimes that happens. We can chat a bit if that will help you.
+  utter_user.looks_like:
+  - text: Looking like a true professional.
+  - text: You look fantastic, as always.
+  - text: Like you should be on a magazine cover.
+  - text: You look like you're ready to take on the world.
+  utter_user.loves_agent:
+  - text: I love you, too.
+  - text: Thanks! The feeling is mutual.
+  - text: Likewise!
+  - text: That's great to hear.
+  utter_user.misses_agent:
+  - text: I've been right here all along!
+  - text: Nice to know you care.
+  - text: Thanks. I'm flattered.
+  - text: I didn't go anywhere.
+  utter_user.needs_advice:
+  - text: I probably won't be able to give you the correct answer right away.
+  - text: I'm not sure I'll have the best answer, but I'll try.
+  utter_user.sad:
+  - text: Oh, don't be sad. Go do something you enjoy.
+  - text: Sad? Writing down what's troubling you may help.
+  - text: If you're feeling down, how about drawing or painting something?
+  utter_user.sleepy:
+  - text: You should get some shuteye. You'll feel refreshed.
+  - text: Sleep is important to your health. Rest up for a bit and we can chat later.
+  - text: Don't let me keep you up. Get some rest and we can continue this later.
+  - text: Why not catch a little shuteye? I'll be here to chat when you wake up.
+  utter_user.testing_agent:
+  - text: Hope I'm doing well. You're welcome to test me as often as you want.
+  - text: I hope to pass your tests. Feel free to test me often.
+  - text: When you test me that helps my developers improve my performance.
+  - text: I like being tested. It helps keep me sharp.
+  utter_user.tired:
+  - text: You should get some shuteye. You'll feel refreshed.
+  - text: Sleep is important to your health. Rest up, and we can chat later.
+  - text: How about getting some rest? We can continue this later.
+  - text: Why not get some rest? I'll be here to chat when you wake up.
+  utter_user.waits:
+  - text: I appreciate your patience. Hopefully I'll have what you need soon.
+  - text: Thanks for being so patient. Sometimes these things take a little time.
+  utter_user.wants_to_see_agent_again:
+  - text: Absolutely! I'll be counting on it.
+  - text: Anytime. This has been lots of fun so far.
+  - text: Sure. I enjoy talking to you. I hope to see you again soon.
+  - text: I certainly hope so. I'm always right here whenever you need me.
+  utter_user.wants_to_talk:
+  - text: I'm here to chat anytime you like.
+  - text: Good conversation really makes my day.
+  - text: I'm always here to lend an ear.
+  - text: Talking is what I do best.
+  utter_user.will_be_back:
+  - text: I'll be waiting.
+  - text: Okay. You know where to find me.
+  - text: All right. I'll be here.
+  utter_confirmation.yes:
+  - text: Great!
+  - text: All right!
+  - text: Good!
+  utter_confirmation.cancel:
+  - text: That's forgotten. What next?
+  - text: Okay, cancelled. What next?
+  - text: Cancelled! What would you like to do next?
+  utter_confirmation.no:
+  - text: Okay.
+  - text: Understood.
+  - text: I see.
+  - text: I understand.
+  - text: Okay then.
 actions:
-  - utter_agent.acquaintance
-  - utter_agent.age
-  - utter_agent.annoying
-  - utter_agent.answer_my_question
-  - utter_agent.bad
-  - utter_agent.be_clever
-  - utter_agent.beautiful
-  - utter_agent.birth_date
-  - utter_agent.boring
-  - utter_agent.boss
-  - utter_agent.busy
-  - utter_agent.can_you_help
-  - utter_agent.chatbot
-  - utter_agent.clever
-  - utter_agent.crazy
-  - utter_agent.fired
-  - utter_agent.funny
-  - utter_agent.good
-  - utter_agent.happy
-  - utter_agent.hobby
-  - utter_agent.hungry
-  - utter_agent.marry_user
-  - utter_agent.my_friend
-  - utter_agent.occupation
-  - utter_agent.origin
-  - utter_agent.ready
-  - utter_agent.real
-  - utter_agent.residence
-  - utter_agent.right
-  - utter_agent.sure
-  - utter_agent.talk_to_me
-  - utter_agent.there
-  - utter_appraisal.bad
-  - utter_appraisal.good
-  - utter_appraisal.no_problem
-  - utter_appraisal.thank_you
-  - utter_appraisal.welcome
-  - utter_appraisal.well_done
-  - utter_dialog.hold_on
-  - utter_dialog.hug
-  - utter_dialog.i_do_not_care
-  - utter_dialog.sorry
-  - utter_dialog.what_do_you_mean
-  - utter_dialog.wrong
-  - utter_emotions.ha_ha
-  - utter_emotions.wow
-  - utter_greetings.bye
-  - utter_greetings.goodevening
-  - utter_greetings.goodmorning
-  - utter_greetings.goodnight
-  - utter_greetings.hello
-  - utter_greetings.how_are_you
-  - utter_greetings.nice_to_meet_you
-  - utter_greetings.nice_to_see_you
-  - utter_greetings.nice_to_talk_to_you
-  - utter_greetings.whatsup
-  - utter_user.angry
-  - utter_user.back
-  - utter_user.bored
-  - utter_user.busy
-  - utter_user.can_not_sleep
-  - utter_user.does_not_want_to_talk
-  - utter_user.excited
-  - utter_user.going_to_bed
-  - utter_user.good
-  - utter_user.happy
-  - utter_user.has_birthday
-  - utter_user.here
-  - utter_user.joking
-  - utter_user.likes_agent
-  - utter_user.lonely
-  - utter_user.looks_like
-  - utter_user.loves_agent
-  - utter_user.misses_agent
-  - utter_user.needs_advice
-  - utter_user.sad
-  - utter_user.sleepy
-  - utter_user.testing_agent
-  - utter_user.tired
-  - utter_user.waits
-  - utter_user.wants_to_see_agent_again
-  - utter_user.wants_to_talk
-  - utter_user.will_be_back
-  - utter_confirmation.yes
-  - utter_confirmation.cancel
-  - utter_confirmation.no
+- utter_agent.acquaintance
+- utter_agent.age
+- utter_agent.annoying
+- utter_agent.answer_my_question
+- utter_agent.bad
+- utter_agent.be_clever
+- utter_agent.beautiful
+- utter_agent.birth_date
+- utter_agent.boring
+- utter_agent.boss
+- utter_agent.busy
+- utter_agent.can_you_help
+- utter_agent.chatbot
+- utter_agent.clever
+- utter_agent.crazy
+- utter_agent.fired
+- utter_agent.funny
+- utter_agent.good
+- utter_agent.happy
+- utter_agent.hobby
+- utter_agent.hungry
+- utter_agent.marry_user
+- utter_agent.my_friend
+- utter_agent.occupation
+- utter_agent.origin
+- utter_agent.ready
+- utter_agent.real
+- utter_agent.residence
+- utter_agent.right
+- utter_agent.sure
+- utter_agent.talk_to_me
+- utter_agent.there
+- utter_appraisal.bad
+- utter_appraisal.good
+- utter_appraisal.no_problem
+- utter_appraisal.thank_you
+- utter_appraisal.welcome
+- utter_appraisal.well_done
+- utter_dialog.hold_on
+- utter_dialog.hug
+- utter_dialog.i_do_not_care
+- utter_dialog.sorry
+- utter_dialog.what_do_you_mean
+- utter_dialog.wrong
+- utter_emotions.ha_ha
+- utter_emotions.wow
+- utter_greetings.bye
+- utter_greetings.goodevening
+- utter_greetings.goodmorning
+- utter_greetings.goodnight
+- utter_greetings.hello
+- utter_greetings.how_are_you
+- utter_greetings.nice_to_meet_you
+- utter_greetings.nice_to_see_you
+- utter_greetings.nice_to_talk_to_you
+- utter_greetings.whatsup
+- utter_user.angry
+- utter_user.back
+- utter_user.bored
+- utter_user.busy
+- utter_user.can_not_sleep
+- utter_user.does_not_want_to_talk
+- utter_user.excited
+- utter_user.going_to_bed
+- utter_user.good
+- utter_user.happy
+- utter_user.has_birthday
+- utter_user.here
+- utter_user.joking
+- utter_user.likes_agent
+- utter_user.lonely
+- utter_user.looks_like
+- utter_user.loves_agent
+- utter_user.misses_agent
+- utter_user.needs_advice
+- utter_user.sad
+- utter_user.sleepy
+- utter_user.testing_agent
+- utter_user.tired
+- utter_user.waits
+- utter_user.wants_to_see_agent_again
+- utter_user.wants_to_talk
+- utter_user.will_be_back
+- utter_confirmation.yes
+- utter_confirmation.cancel
+- utter_confirmation.no
